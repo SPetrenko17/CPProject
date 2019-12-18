@@ -4,19 +4,31 @@
 
 #ifndef CPPROJECT_PAGEGENERATOR_H
 #define CPPROJECT_PAGEGENERATOR_H
-#include "../../Page/Page.h"
 
-class PageGenerator{
-private:
-    std::string url;
-    PageData data;
-protected:
-    Page page;
+#include <math.h>
+#include <Page/Page.h>
+#include <Views/PersonView/PersonView.h>
+#include <Form/FormView.h>
+#include <PageData/PageData.h>
+
+
+
+class PageGenerator {
+
 public:
-    PageGenerator();
-    Page generate_start_page();
-    Page generate_result_page(PageData m_data);
-    PageData get_page_data();
+
+    Page *page;
+
+    PageGenerator() = default;
+
+//    void organizeCells(Organize o, int &rows, int &cells, int count);
+
+    Page *generateTablePage(std::vector<UserData *> userData, Organize o);
+
+    Page *generateStartPage();
+
+    Page *generateUserPage(UserData userData);
+
 
 };
 

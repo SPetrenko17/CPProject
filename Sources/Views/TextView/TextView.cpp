@@ -4,18 +4,58 @@
 
 #include "TextView.h"
 
-TextView::TextView() {
+bool TextView::append(ContainerView &mView){
+    return false;
+}
+bool TextView::appendInSubview(std::string subviewName, ContainerView& mView){
+    return false;
+}
+bool TextView::removeSubview(std::string subviewName){
+    return false;
+}
+void TextView::destroy(){
 
 }
 
-TextView::TextView(string m_text) : View(m_text) {
 
+TextView::TextView(std::string n, Type t, BClass c, std::string txt){
+    name = std::move(n);
+    type = enumToString(t);
+    _class = enumToString(c);
+    text = std::move(txt);
+};
+TextView::TextView(std::string n, Type t, std::string txt){
+    name = std::move(n);
+    type = enumToString(t);
+    _class = "";
+    text = std::move(txt);
+};
+
+void TextView::setText(std::string mText){
+    text = mText;
 }
 
-void TextView::set_text(string m_text) {
-
+std::string TextView::getText(){
+    return text;
 }
 
-string TextView::get_text() {
-    return std::string();
+std::string TextView::toStringOpen(int depth) {
+    std::string res;
+    for(int i=0;i<3*depth;i++){
+        res+=" ";
+    }
+    res += "<"+type + " class=\""+ _class+"\">"+text;
+    return res;
+}
+std::string TextView::toStringClose(int depth) {
+    std::string res;
+    res += "</"+type+">\n\n";
+    return res;
+}
+std::string TextView::toString(int depth) {
+    return toStringOpen(depth)+toStringClose(depth);
+}
+
+TextView::~TextView() {
+
 }

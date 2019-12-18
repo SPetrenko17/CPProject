@@ -5,8 +5,8 @@
 #ifndef BACKEND_SERVER_H
 #define BACKEND_SERVER_H
 
-#include "../HttpRequest/HttpRequest.h"
-#include "../HttpResponse/HttpResponse.h"
+#include "HttpRequest/HttpRequest.h"
+#include "HttpResponse/HttpResponse.h"
 
 #include <netinet/in.h>
 #include <sys/socket.h>

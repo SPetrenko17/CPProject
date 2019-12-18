@@ -1,0 +1,3 @@
+/Users/sergei/Desktop/CPProject/CMakeFiles/rebuild_cache.dir
+/Users/sergei/Desktop/CPProject/CMakeFiles/edit_cache.dir
+/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir

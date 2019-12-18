@@ -5,14 +5,23 @@
 #ifndef CPPROJECT_ROWVIEW_H
 #define CPPROJECT_ROWVIEW_H
 
+#include <Views/View/View.h>
 
-#include "../Container/ContainerView.h"
-
-class RowView: protected ContainerView{
+class RowView : public View {
 public:
-    RowView();
-};
+    int index{};
+    std::string scope;
 
+    explicit RowView(int indx);
+
+    RowView(int indx, ContainerView &containerView);
+
+    ~RowView();
+
+    explicit RowView(ContainerView &containerView);
+
+    void setIndex(int indx);
+};
 
 
 #endif //CPPROJECT_ROWVIEW_H

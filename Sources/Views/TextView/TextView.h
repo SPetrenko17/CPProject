@@ -5,17 +5,37 @@
 #ifndef CPPROJECT_TEXTVIEW_H
 #define CPPROJECT_TEXTVIEW_H
 
+#include <Container/ContainerView.h>
 
-#include "../View/View.h"
-
-class TextView: public View{
+class TextView : public ContainerView {
 private:
-    string text;
+    std::string text;
+
 public:
-    TextView();
-    TextView(string m_text);
-    void set_text(string m_text);
-    string get_text();
+    bool append(ContainerView &mView) override;
+
+    bool
+    appendInSubview(std::string subviewName, ContainerView &mView) override;
+
+    bool removeSubview(std::string subviewName) override;
+
+    void destroy() override;
+
+    TextView(std::string n, Type t, BClass c, std::string txt);
+
+    TextView(std::string n, Type t, std::string txt);
+
+    ~TextView();
+
+    void setText(std::string mText);
+
+    std::string getText();
+
+    std::string toStringOpen(int depth) override;
+
+    std::string toStringClose(int depth) override;
+
+    std::string toString(int depth) override;
 
 };
 
