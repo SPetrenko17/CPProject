@@ -20,4 +20,5 @@ DB::~DB(){
 
 void DB::add(const std::vector<double>& key, const std::string& data){
 	data_structure->add(key, data);
+	std::cout<<"added "<< data<<std::endl;
 }

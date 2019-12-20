@@ -6,9 +6,10 @@
 void addToBd(const std::vector<double> &vec, const std::string &url) {} //Функция из библиотеки Александра
 
 
-Crowler::Crowler(std::shared_ptr<AbstractAPI> m_api, std::shared_ptr<AbstractIdListGeneratorStrategy> m_lg) {
+Crowler::Crowler(std::shared_ptr<AbstractAPI> m_api, std::shared_ptr<AbstractIdListGeneratorStrategy> m_lg, DB* m_db) {
     api = std::move(m_api);
     lg = std::move(m_lg);
+    db=m_db;
 }
 
 
@@ -23,8 +24,9 @@ void Crowler::stopCrowl() {
 }
 
 
-const std::vector<double> &vectorize(const std::string &url) { //Функция из библиотеки Димы
-    return {};
+std::vector<double> vectorize(const std::string &url) { //Функция из библиотеки Димы
+    std::vector<double> res = {1.1,2.1,3.2,4.1};
+    return res;
 }
 
 void Crowler::crowl() {
@@ -35,7 +37,7 @@ void Crowler::crowl() {
         for (const auto &id: id_list) {
             std::vector<url> photoUrls = api->getPhotoUrlsById(id);
             for (auto &data: photoUrls) {
-                addToBd(vectorize(data.toStr()), data.toStr());
+                db->add(vectorize(data.toStr()), data.toStr());
                 std::cout << data.toStr() << std::endl;
             }
         }
@@ -46,4 +48,3 @@ void Crowler::crowl() {
     }
 
 }
-

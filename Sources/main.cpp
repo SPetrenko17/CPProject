@@ -14,20 +14,15 @@
 #include "WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.h"
 #include "WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.h"
 
+#include "WebCrowler/API/VkAPI.h"
+
 #include "KD/DB.h"
 #include <mongocxx/client.hpp>
 #include <mongocxx/uri.hpp>
 #include <mongocxx/instance.hpp>
 
 
-
-
-
-
-
 using namespace std;
-
-
 
 HttpResponse api_method(HttpRequest request) {
     std::vector<UserData *> userData{
@@ -185,6 +180,27 @@ int main(){
     mongocxx::v_noabi::collection collection =  conn["testdb"]["testcollection"];
 
     DB db(collection);
+//    for(int i = 0; i < 100; i++) {
+//        db.add(std::vector<double>{0, 1, 2, 3}, "hello");
+//        std::cout<<"ok"<<std::endl;
+//    }
+//    std::cout<<"VERY OK"<<std::endl;
+
+    std::shared_ptr<VkAPI> vk = std::make_shared<VkAPI>("asd");
+    vk->login();
+
+    std::shared_ptr<VkIdListGeneratorStrategy> vkId = std::make_shared<VkIdListGeneratorStrategy>(6,
+                                                                                                  "/Users/dmitrijgulacenkov/CrowlerDump/vkId.txt"
+    );
+
+
+    Crowler cr(vk, vkId, &db);
+
+    cr.startCrowl();
+    sleep(4);
+    cr.stopCrowl();
+
+
 
 
     std::vector<UserData *> userData {
@@ -261,7 +277,7 @@ int main(){
     server.set_not_found_view(not_found_view);
     server.add_view(api_method, "/");
 
-    std::vector<HttpResponse*> responses;
+    //std::vector<HttpResponse*> responses;
     /*
     int i = 0;
     for(auto& p :pageManager->userPages){
@@ -288,6 +304,7 @@ int main(){
     server.add_view(api_method_user_page, "/userpage/");
 
     server.run();
+
 
 
 
