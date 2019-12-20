@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.4.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.4.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sergei/Desktop/CPProject"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sergei/Desktop/CPProject"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sergei/Desktop/CPProject"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPProject.out">
+				<Option output="/Users/sergei/Desktop/CPProject/CPProject.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergei/Desktop/CPProject"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/local/include/libmongoc-1.0"/>
+					<Add directory="/usr/local/include/libbson-1.0"/>
+					<Add directory="/usr/local/lib"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/HttpResponse"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/HttpRequest"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/LRU"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Server"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 CPProject.out"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPProject.out/fast">
+				<Option output="/Users/sergei/Desktop/CPProject/CPProject.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergei/Desktop/CPProject"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/local/include/libmongoc-1.0"/>
+					<Add directory="/usr/local/include/libbson-1.0"/>
+					<Add directory="/usr/local/lib"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/HttpResponse"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/HttpRequest"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/LRU"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Server"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 CPProject.out/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sergei/Desktop/CPProject/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/Container.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/DB.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/main.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/libmongocxx-3.4.0/libmongocxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/libmongocxx-3.4.0/libmongocxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/libbsoncxx-3.4.0/libbsoncxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/libbsoncxx-3.4.0/libbsoncxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

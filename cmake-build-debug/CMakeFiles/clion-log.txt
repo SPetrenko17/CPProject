@@ -1,15 +1,5 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sergei/Desktop/CPProject
+-- Boost  found.
 -- Configuring done
-CMake Error: Cannot open file for write: /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/build.make.tmp
-CMake Error: : System Error: Permission denied
-CMake Error: Cannot open file for write: /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/flags.make.tmp
-CMake Error: : System Error: Permission denied
-CMake Error: Cannot open file for write: /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/link.txt.tmp
-CMake Error: : System Error: Permission denied
-CMake Error: Could not create /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/cmake_clean.cmake
-CMake Error: Cannot open file for write: /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/DependInfo.cmake.tmp
-CMake Error: : System Error: Permission denied
 -- Generating done
-CMake Error: Cannot open file for write: /Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/progress.make.tmp
-CMake Error: : System Error: Permission denied
 -- Build files have been written to: /Users/sergei/Desktop/CPProject

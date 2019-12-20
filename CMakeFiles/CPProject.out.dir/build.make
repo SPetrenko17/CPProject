@@ -70,317 +70,575 @@ CMakeFiles/CPProject.out.dir/Sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/main.cpp -o CMakeFiles/CPProject.out.dir/Sources/main.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o: Sources/Views/SecondaryView/SecondaryView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/SecondaryView/SecondaryView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o: Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/SecondaryView/SecondaryView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/SecondaryView/SecondaryView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o: Sources/Views/UserData/UserData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/UserData/UserData.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o: Sources/StaticGeneration/Views/UserData/UserData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/UserData/UserData.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/UserData/UserData.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/UserData/UserData.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o: Sources/Views/Container/ContainerView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/Container/ContainerView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o: Sources/StaticGeneration/Views/Container/ContainerView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/Container/ContainerView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/Container/ContainerView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Container/ContainerView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o: Sources/Views/Cell/CellView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/Cell/CellView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o: Sources/StaticGeneration/Views/Cell/CellView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/Cell/CellView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/Cell/CellView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Cell/CellView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o: Sources/Views/Row/RowView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/Row/RowView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o: Sources/StaticGeneration/Views/Row/RowView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/Row/RowView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/Row/RowView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Row/RowView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o: Sources/Views/ImageView/ImageView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/ImageView/ImageView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o: Sources/StaticGeneration/Views/ImageView/ImageView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/ImageView/ImageView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/ImageView/ImageView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/ImageView/ImageView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o: Sources/Views/TableView/TableView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/TableView/TableView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o: Sources/StaticGeneration/Views/TableView/TableView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/TableView/TableView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/TableView/TableView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TableView/TableView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o: Sources/Views/TextView/TextView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/TextView/TextView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o: Sources/StaticGeneration/Views/TextView/TextView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/TextView/TextView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/TextView/TextView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/TextView/TextView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o: Sources/Views/View/View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/View/View.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o: Sources/StaticGeneration/Views/View/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/View/View.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/View/View.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/View/View.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o: Sources/Views/Samples/SampleViews.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/Samples/SampleViews.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o: Sources/StaticGeneration/Views/Samples/SampleViews.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/Samples/SampleViews.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/Samples/SampleViews.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Samples/SampleViews.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o: Sources/Views/PersonView/PersonView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/PersonView/PersonView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o: Sources/StaticGeneration/Views/PersonView/PersonView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/PersonView/PersonView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/PersonView/PersonView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/PersonView/PersonView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o: Sources/Views/Form/FormView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Views/Form/FormView.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o: Sources/StaticGeneration/Views/Form/FormView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Views/Form/FormView.cpp > CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Views/Form/FormView.cpp -o CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Views/Form/FormView.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o: Sources/Page/Page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Page/Page.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o: Sources/StaticGeneration/Page/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Page/Page.cpp > CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Page/Page.cpp -o CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o: Sources/PageGenerator/PageGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/PageGenerator/PageGenerator.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o: Sources/StaticGeneration/PageGenerator/PageGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/PageGenerator/PageGenerator.cpp > CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/PageGenerator/PageGenerator.cpp -o CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o: Sources/PageManager/PageManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/PageManager/PageManager.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o: Sources/StaticGeneration/PageManager/PageManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/PageManager/PageManager.cpp > CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/PageManager/PageManager.cpp -o CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o: Sources/PageData/PageData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/PageData/PageData.cpp
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o: Sources/StaticGeneration/PageData/PageData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/PageData/PageData.cpp > CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp > CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/PageData/PageData.cpp -o CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp -o CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o: Sources/HttpRequest/HttpRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/HttpRequest/HttpRequest.cpp
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o: Sources/WebServer/HttpRequest/HttpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/HttpRequest/HttpRequest.cpp > CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp > CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/HttpRequest/HttpRequest.cpp -o CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpRequest/HttpRequest.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o: Sources/HttpResponse/HttpResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/HttpResponse/HttpResponse.cpp
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o: Sources/WebServer/HttpResponse/HttpResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/HttpResponse/HttpResponse.cpp > CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp > CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/HttpResponse/HttpResponse.cpp -o CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebServer/HttpResponse/HttpResponse.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o: Sources/LRU/LRU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/LRU/LRU.cpp
+CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o: Sources/WebServer/LRU/LRU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/LRU/LRU.cpp > CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp > CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/LRU/LRU.cpp -o CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebServer/LRU/LRU.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.s
 
-CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
-CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o: Sources/Server/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Server/Server.cpp
+CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o: Sources/WebServer/Server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp
 
-CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Server/Server.cpp > CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.i
+CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp > CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.i
 
-CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Server/Server.cpp -o CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.s
+CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebServer/Server/Server.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o: Sources/WebCrowler/API/FacebookAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/FacebookAPI.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o: Sources/WebCrowler/API/OkAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/OkAPI.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o: Sources/WebCrowler/API/VkAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/WebCrowler/Crowler/Crowler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o: Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o: Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o: Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o: Sources/WebCrowler/NetService/NetService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o: Sources/WebCrowler/response/response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp > CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp -o CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o: Sources/Base/BaseContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp > CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o: Sources/Base/BaseDataStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp > CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o: Sources/Base/BaseSearchEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp > CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp -o CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o: Sources/KD/Container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp > CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp -o CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o: Sources/KD/DB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp > CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp -o CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o: Sources/KD/DBManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp > CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp -o CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o: Sources/KD/KDTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp > CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp -o CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.s
+
+CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o: CMakeFiles/CPProject.out.dir/flags.make
+CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o: Sources/KD/SearchEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o -c /Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp
+
+CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp > CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.i
+
+CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp -o CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s
 
 # Object files for target CPProject.out
 CPProject_out_OBJECTS = \
 "CMakeFiles/CPProject.out.dir/Sources/main.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o" \
-"CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o"
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o" \
+"CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o"
 
 # External object files for target CPProject.out
 CPProject_out_EXTERNAL_OBJECTS =
 
 CPProject.out: CMakeFiles/CPProject.out.dir/Sources/main.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o
-CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o
+CPProject.out: CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o
 CPProject.out: CMakeFiles/CPProject.out.dir/build.make
+CPProject.out: /usr/local/lib/libmongocxx.dylib
+CPProject.out: /usr/local/lib/libbsoncxx.dylib
+CPProject.out: /usr/local/lib/libbsoncxx.dylib
 CPProject.out: CMakeFiles/CPProject.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable CPProject.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sergei/Desktop/CPProject/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable CPProject.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPProject.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

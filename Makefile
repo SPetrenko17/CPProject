@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.15.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,545 +123,1004 @@ CPProject.out/fast:
 	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/build
 .PHONY : CPProject.out/fast
 
-Sources/HttpRequest/HttpRequest.o: Sources/HttpRequest/HttpRequest.cpp.o
+Sources/Base/BaseContainer.o: Sources/Base/BaseContainer.cpp.o
 
-.PHONY : Sources/HttpRequest/HttpRequest.o
-
-# target to build an object file
-Sources/HttpRequest/HttpRequest.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.o
-.PHONY : Sources/HttpRequest/HttpRequest.cpp.o
-
-Sources/HttpRequest/HttpRequest.i: Sources/HttpRequest/HttpRequest.cpp.i
-
-.PHONY : Sources/HttpRequest/HttpRequest.i
-
-# target to preprocess a source file
-Sources/HttpRequest/HttpRequest.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.i
-.PHONY : Sources/HttpRequest/HttpRequest.cpp.i
-
-Sources/HttpRequest/HttpRequest.s: Sources/HttpRequest/HttpRequest.cpp.s
-
-.PHONY : Sources/HttpRequest/HttpRequest.s
-
-# target to generate assembly for a file
-Sources/HttpRequest/HttpRequest.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpRequest/HttpRequest.cpp.s
-.PHONY : Sources/HttpRequest/HttpRequest.cpp.s
-
-Sources/HttpResponse/HttpResponse.o: Sources/HttpResponse/HttpResponse.cpp.o
-
-.PHONY : Sources/HttpResponse/HttpResponse.o
+.PHONY : Sources/Base/BaseContainer.o
 
 # target to build an object file
-Sources/HttpResponse/HttpResponse.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.o
-.PHONY : Sources/HttpResponse/HttpResponse.cpp.o
+Sources/Base/BaseContainer.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o
+.PHONY : Sources/Base/BaseContainer.cpp.o
 
-Sources/HttpResponse/HttpResponse.i: Sources/HttpResponse/HttpResponse.cpp.i
+Sources/Base/BaseContainer.i: Sources/Base/BaseContainer.cpp.i
 
-.PHONY : Sources/HttpResponse/HttpResponse.i
+.PHONY : Sources/Base/BaseContainer.i
 
 # target to preprocess a source file
-Sources/HttpResponse/HttpResponse.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.i
-.PHONY : Sources/HttpResponse/HttpResponse.cpp.i
+Sources/Base/BaseContainer.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.i
+.PHONY : Sources/Base/BaseContainer.cpp.i
 
-Sources/HttpResponse/HttpResponse.s: Sources/HttpResponse/HttpResponse.cpp.s
+Sources/Base/BaseContainer.s: Sources/Base/BaseContainer.cpp.s
 
-.PHONY : Sources/HttpResponse/HttpResponse.s
+.PHONY : Sources/Base/BaseContainer.s
 
 # target to generate assembly for a file
-Sources/HttpResponse/HttpResponse.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/HttpResponse/HttpResponse.cpp.s
-.PHONY : Sources/HttpResponse/HttpResponse.cpp.s
+Sources/Base/BaseContainer.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.s
+.PHONY : Sources/Base/BaseContainer.cpp.s
 
-Sources/LRU/LRU.o: Sources/LRU/LRU.cpp.o
+Sources/Base/BaseDataStructure.o: Sources/Base/BaseDataStructure.cpp.o
 
-.PHONY : Sources/LRU/LRU.o
+.PHONY : Sources/Base/BaseDataStructure.o
 
 # target to build an object file
-Sources/LRU/LRU.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.o
-.PHONY : Sources/LRU/LRU.cpp.o
+Sources/Base/BaseDataStructure.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o
+.PHONY : Sources/Base/BaseDataStructure.cpp.o
 
-Sources/LRU/LRU.i: Sources/LRU/LRU.cpp.i
+Sources/Base/BaseDataStructure.i: Sources/Base/BaseDataStructure.cpp.i
 
-.PHONY : Sources/LRU/LRU.i
+.PHONY : Sources/Base/BaseDataStructure.i
 
 # target to preprocess a source file
-Sources/LRU/LRU.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.i
-.PHONY : Sources/LRU/LRU.cpp.i
+Sources/Base/BaseDataStructure.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.i
+.PHONY : Sources/Base/BaseDataStructure.cpp.i
 
-Sources/LRU/LRU.s: Sources/LRU/LRU.cpp.s
+Sources/Base/BaseDataStructure.s: Sources/Base/BaseDataStructure.cpp.s
 
-.PHONY : Sources/LRU/LRU.s
+.PHONY : Sources/Base/BaseDataStructure.s
 
 # target to generate assembly for a file
-Sources/LRU/LRU.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/LRU/LRU.cpp.s
-.PHONY : Sources/LRU/LRU.cpp.s
+Sources/Base/BaseDataStructure.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s
+.PHONY : Sources/Base/BaseDataStructure.cpp.s
 
-Sources/Page/Page.o: Sources/Page/Page.cpp.o
+Sources/Base/BaseSearchEngine.o: Sources/Base/BaseSearchEngine.cpp.o
 
-.PHONY : Sources/Page/Page.o
+.PHONY : Sources/Base/BaseSearchEngine.o
 
 # target to build an object file
-Sources/Page/Page.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.o
-.PHONY : Sources/Page/Page.cpp.o
+Sources/Base/BaseSearchEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o
+.PHONY : Sources/Base/BaseSearchEngine.cpp.o
 
-Sources/Page/Page.i: Sources/Page/Page.cpp.i
+Sources/Base/BaseSearchEngine.i: Sources/Base/BaseSearchEngine.cpp.i
 
-.PHONY : Sources/Page/Page.i
+.PHONY : Sources/Base/BaseSearchEngine.i
 
 # target to preprocess a source file
-Sources/Page/Page.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.i
-.PHONY : Sources/Page/Page.cpp.i
+Sources/Base/BaseSearchEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.i
+.PHONY : Sources/Base/BaseSearchEngine.cpp.i
 
-Sources/Page/Page.s: Sources/Page/Page.cpp.s
+Sources/Base/BaseSearchEngine.s: Sources/Base/BaseSearchEngine.cpp.s
 
-.PHONY : Sources/Page/Page.s
+.PHONY : Sources/Base/BaseSearchEngine.s
 
 # target to generate assembly for a file
-Sources/Page/Page.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Page/Page.cpp.s
-.PHONY : Sources/Page/Page.cpp.s
+Sources/Base/BaseSearchEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.s
+.PHONY : Sources/Base/BaseSearchEngine.cpp.s
 
-Sources/PageData/PageData.o: Sources/PageData/PageData.cpp.o
+Sources/KD/Container.o: Sources/KD/Container.cpp.o
 
-.PHONY : Sources/PageData/PageData.o
+.PHONY : Sources/KD/Container.o
 
 # target to build an object file
-Sources/PageData/PageData.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.o
-.PHONY : Sources/PageData/PageData.cpp.o
+Sources/KD/Container.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o
+.PHONY : Sources/KD/Container.cpp.o
 
-Sources/PageData/PageData.i: Sources/PageData/PageData.cpp.i
+Sources/KD/Container.i: Sources/KD/Container.cpp.i
 
-.PHONY : Sources/PageData/PageData.i
+.PHONY : Sources/KD/Container.i
 
 # target to preprocess a source file
-Sources/PageData/PageData.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.i
-.PHONY : Sources/PageData/PageData.cpp.i
+Sources/KD/Container.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.i
+.PHONY : Sources/KD/Container.cpp.i
 
-Sources/PageData/PageData.s: Sources/PageData/PageData.cpp.s
+Sources/KD/Container.s: Sources/KD/Container.cpp.s
 
-.PHONY : Sources/PageData/PageData.s
+.PHONY : Sources/KD/Container.s
 
 # target to generate assembly for a file
-Sources/PageData/PageData.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageData/PageData.cpp.s
-.PHONY : Sources/PageData/PageData.cpp.s
+Sources/KD/Container.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.s
+.PHONY : Sources/KD/Container.cpp.s
 
-Sources/PageGenerator/PageGenerator.o: Sources/PageGenerator/PageGenerator.cpp.o
+Sources/KD/DB.o: Sources/KD/DB.cpp.o
 
-.PHONY : Sources/PageGenerator/PageGenerator.o
+.PHONY : Sources/KD/DB.o
 
 # target to build an object file
-Sources/PageGenerator/PageGenerator.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.o
-.PHONY : Sources/PageGenerator/PageGenerator.cpp.o
+Sources/KD/DB.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o
+.PHONY : Sources/KD/DB.cpp.o
 
-Sources/PageGenerator/PageGenerator.i: Sources/PageGenerator/PageGenerator.cpp.i
+Sources/KD/DB.i: Sources/KD/DB.cpp.i
 
-.PHONY : Sources/PageGenerator/PageGenerator.i
+.PHONY : Sources/KD/DB.i
 
 # target to preprocess a source file
-Sources/PageGenerator/PageGenerator.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.i
-.PHONY : Sources/PageGenerator/PageGenerator.cpp.i
+Sources/KD/DB.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.i
+.PHONY : Sources/KD/DB.cpp.i
 
-Sources/PageGenerator/PageGenerator.s: Sources/PageGenerator/PageGenerator.cpp.s
+Sources/KD/DB.s: Sources/KD/DB.cpp.s
 
-.PHONY : Sources/PageGenerator/PageGenerator.s
+.PHONY : Sources/KD/DB.s
 
 # target to generate assembly for a file
-Sources/PageGenerator/PageGenerator.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageGenerator/PageGenerator.cpp.s
-.PHONY : Sources/PageGenerator/PageGenerator.cpp.s
+Sources/KD/DB.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.s
+.PHONY : Sources/KD/DB.cpp.s
 
-Sources/PageManager/PageManager.o: Sources/PageManager/PageManager.cpp.o
+Sources/KD/DBManager.o: Sources/KD/DBManager.cpp.o
 
-.PHONY : Sources/PageManager/PageManager.o
+.PHONY : Sources/KD/DBManager.o
 
 # target to build an object file
-Sources/PageManager/PageManager.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.o
-.PHONY : Sources/PageManager/PageManager.cpp.o
+Sources/KD/DBManager.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o
+.PHONY : Sources/KD/DBManager.cpp.o
 
-Sources/PageManager/PageManager.i: Sources/PageManager/PageManager.cpp.i
+Sources/KD/DBManager.i: Sources/KD/DBManager.cpp.i
 
-.PHONY : Sources/PageManager/PageManager.i
+.PHONY : Sources/KD/DBManager.i
 
 # target to preprocess a source file
-Sources/PageManager/PageManager.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.i
-.PHONY : Sources/PageManager/PageManager.cpp.i
+Sources/KD/DBManager.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.i
+.PHONY : Sources/KD/DBManager.cpp.i
 
-Sources/PageManager/PageManager.s: Sources/PageManager/PageManager.cpp.s
+Sources/KD/DBManager.s: Sources/KD/DBManager.cpp.s
 
-.PHONY : Sources/PageManager/PageManager.s
+.PHONY : Sources/KD/DBManager.s
 
 # target to generate assembly for a file
-Sources/PageManager/PageManager.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/PageManager/PageManager.cpp.s
-.PHONY : Sources/PageManager/PageManager.cpp.s
+Sources/KD/DBManager.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.s
+.PHONY : Sources/KD/DBManager.cpp.s
 
-Sources/Server/Server.o: Sources/Server/Server.cpp.o
+Sources/KD/KDTree.o: Sources/KD/KDTree.cpp.o
 
-.PHONY : Sources/Server/Server.o
+.PHONY : Sources/KD/KDTree.o
 
 # target to build an object file
-Sources/Server/Server.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.o
-.PHONY : Sources/Server/Server.cpp.o
+Sources/KD/KDTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o
+.PHONY : Sources/KD/KDTree.cpp.o
 
-Sources/Server/Server.i: Sources/Server/Server.cpp.i
+Sources/KD/KDTree.i: Sources/KD/KDTree.cpp.i
 
-.PHONY : Sources/Server/Server.i
+.PHONY : Sources/KD/KDTree.i
 
 # target to preprocess a source file
-Sources/Server/Server.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.i
-.PHONY : Sources/Server/Server.cpp.i
+Sources/KD/KDTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.i
+.PHONY : Sources/KD/KDTree.cpp.i
 
-Sources/Server/Server.s: Sources/Server/Server.cpp.s
+Sources/KD/KDTree.s: Sources/KD/KDTree.cpp.s
 
-.PHONY : Sources/Server/Server.s
+.PHONY : Sources/KD/KDTree.s
 
 # target to generate assembly for a file
-Sources/Server/Server.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Server/Server.cpp.s
-.PHONY : Sources/Server/Server.cpp.s
+Sources/KD/KDTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.s
+.PHONY : Sources/KD/KDTree.cpp.s
 
-Sources/Views/Cell/CellView.o: Sources/Views/Cell/CellView.cpp.o
+Sources/KD/SearchEngine.o: Sources/KD/SearchEngine.cpp.o
 
-.PHONY : Sources/Views/Cell/CellView.o
+.PHONY : Sources/KD/SearchEngine.o
 
 # target to build an object file
-Sources/Views/Cell/CellView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.o
-.PHONY : Sources/Views/Cell/CellView.cpp.o
+Sources/KD/SearchEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o
+.PHONY : Sources/KD/SearchEngine.cpp.o
 
-Sources/Views/Cell/CellView.i: Sources/Views/Cell/CellView.cpp.i
+Sources/KD/SearchEngine.i: Sources/KD/SearchEngine.cpp.i
 
-.PHONY : Sources/Views/Cell/CellView.i
+.PHONY : Sources/KD/SearchEngine.i
 
 # target to preprocess a source file
-Sources/Views/Cell/CellView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.i
-.PHONY : Sources/Views/Cell/CellView.cpp.i
+Sources/KD/SearchEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.i
+.PHONY : Sources/KD/SearchEngine.cpp.i
 
-Sources/Views/Cell/CellView.s: Sources/Views/Cell/CellView.cpp.s
+Sources/KD/SearchEngine.s: Sources/KD/SearchEngine.cpp.s
 
-.PHONY : Sources/Views/Cell/CellView.s
+.PHONY : Sources/KD/SearchEngine.s
 
 # target to generate assembly for a file
-Sources/Views/Cell/CellView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Cell/CellView.cpp.s
-.PHONY : Sources/Views/Cell/CellView.cpp.s
+Sources/KD/SearchEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s
+.PHONY : Sources/KD/SearchEngine.cpp.s
 
-Sources/Views/Container/ContainerView.o: Sources/Views/Container/ContainerView.cpp.o
+Sources/StaticGeneration/Page/Page.o: Sources/StaticGeneration/Page/Page.cpp.o
 
-.PHONY : Sources/Views/Container/ContainerView.o
+.PHONY : Sources/StaticGeneration/Page/Page.o
 
 # target to build an object file
-Sources/Views/Container/ContainerView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.o
-.PHONY : Sources/Views/Container/ContainerView.cpp.o
+Sources/StaticGeneration/Page/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o
+.PHONY : Sources/StaticGeneration/Page/Page.cpp.o
 
-Sources/Views/Container/ContainerView.i: Sources/Views/Container/ContainerView.cpp.i
+Sources/StaticGeneration/Page/Page.i: Sources/StaticGeneration/Page/Page.cpp.i
 
-.PHONY : Sources/Views/Container/ContainerView.i
+.PHONY : Sources/StaticGeneration/Page/Page.i
 
 # target to preprocess a source file
-Sources/Views/Container/ContainerView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.i
-.PHONY : Sources/Views/Container/ContainerView.cpp.i
+Sources/StaticGeneration/Page/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.i
+.PHONY : Sources/StaticGeneration/Page/Page.cpp.i
 
-Sources/Views/Container/ContainerView.s: Sources/Views/Container/ContainerView.cpp.s
+Sources/StaticGeneration/Page/Page.s: Sources/StaticGeneration/Page/Page.cpp.s
 
-.PHONY : Sources/Views/Container/ContainerView.s
+.PHONY : Sources/StaticGeneration/Page/Page.s
 
 # target to generate assembly for a file
-Sources/Views/Container/ContainerView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Container/ContainerView.cpp.s
-.PHONY : Sources/Views/Container/ContainerView.cpp.s
+Sources/StaticGeneration/Page/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.s
+.PHONY : Sources/StaticGeneration/Page/Page.cpp.s
 
-Sources/Views/Form/FormView.o: Sources/Views/Form/FormView.cpp.o
+Sources/StaticGeneration/PageData/PageData.o: Sources/StaticGeneration/PageData/PageData.cpp.o
 
-.PHONY : Sources/Views/Form/FormView.o
+.PHONY : Sources/StaticGeneration/PageData/PageData.o
 
 # target to build an object file
-Sources/Views/Form/FormView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.o
-.PHONY : Sources/Views/Form/FormView.cpp.o
+Sources/StaticGeneration/PageData/PageData.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o
+.PHONY : Sources/StaticGeneration/PageData/PageData.cpp.o
 
-Sources/Views/Form/FormView.i: Sources/Views/Form/FormView.cpp.i
+Sources/StaticGeneration/PageData/PageData.i: Sources/StaticGeneration/PageData/PageData.cpp.i
 
-.PHONY : Sources/Views/Form/FormView.i
+.PHONY : Sources/StaticGeneration/PageData/PageData.i
 
 # target to preprocess a source file
-Sources/Views/Form/FormView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.i
-.PHONY : Sources/Views/Form/FormView.cpp.i
+Sources/StaticGeneration/PageData/PageData.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.i
+.PHONY : Sources/StaticGeneration/PageData/PageData.cpp.i
 
-Sources/Views/Form/FormView.s: Sources/Views/Form/FormView.cpp.s
+Sources/StaticGeneration/PageData/PageData.s: Sources/StaticGeneration/PageData/PageData.cpp.s
 
-.PHONY : Sources/Views/Form/FormView.s
+.PHONY : Sources/StaticGeneration/PageData/PageData.s
 
 # target to generate assembly for a file
-Sources/Views/Form/FormView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Form/FormView.cpp.s
-.PHONY : Sources/Views/Form/FormView.cpp.s
+Sources/StaticGeneration/PageData/PageData.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.s
+.PHONY : Sources/StaticGeneration/PageData/PageData.cpp.s
 
-Sources/Views/ImageView/ImageView.o: Sources/Views/ImageView/ImageView.cpp.o
+Sources/StaticGeneration/PageGenerator/PageGenerator.o: Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o
 
-.PHONY : Sources/Views/ImageView/ImageView.o
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.o
 
 # target to build an object file
-Sources/Views/ImageView/ImageView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.o
-.PHONY : Sources/Views/ImageView/ImageView.cpp.o
+Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o
 
-Sources/Views/ImageView/ImageView.i: Sources/Views/ImageView/ImageView.cpp.i
+Sources/StaticGeneration/PageGenerator/PageGenerator.i: Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i
 
-.PHONY : Sources/Views/ImageView/ImageView.i
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.i
 
 # target to preprocess a source file
-Sources/Views/ImageView/ImageView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.i
-.PHONY : Sources/Views/ImageView/ImageView.cpp.i
+Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.i
 
-Sources/Views/ImageView/ImageView.s: Sources/Views/ImageView/ImageView.cpp.s
+Sources/StaticGeneration/PageGenerator/PageGenerator.s: Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s
 
-.PHONY : Sources/Views/ImageView/ImageView.s
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.s
 
 # target to generate assembly for a file
-Sources/Views/ImageView/ImageView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/ImageView/ImageView.cpp.s
-.PHONY : Sources/Views/ImageView/ImageView.cpp.s
+Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s
+.PHONY : Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.s
 
-Sources/Views/PersonView/PersonView.o: Sources/Views/PersonView/PersonView.cpp.o
+Sources/StaticGeneration/PageManager/PageManager.o: Sources/StaticGeneration/PageManager/PageManager.cpp.o
 
-.PHONY : Sources/Views/PersonView/PersonView.o
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.o
 
 # target to build an object file
-Sources/Views/PersonView/PersonView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.o
-.PHONY : Sources/Views/PersonView/PersonView.cpp.o
+Sources/StaticGeneration/PageManager/PageManager.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.o
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.cpp.o
 
-Sources/Views/PersonView/PersonView.i: Sources/Views/PersonView/PersonView.cpp.i
+Sources/StaticGeneration/PageManager/PageManager.i: Sources/StaticGeneration/PageManager/PageManager.cpp.i
 
-.PHONY : Sources/Views/PersonView/PersonView.i
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.i
 
 # target to preprocess a source file
-Sources/Views/PersonView/PersonView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.i
-.PHONY : Sources/Views/PersonView/PersonView.cpp.i
+Sources/StaticGeneration/PageManager/PageManager.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.i
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.cpp.i
 
-Sources/Views/PersonView/PersonView.s: Sources/Views/PersonView/PersonView.cpp.s
+Sources/StaticGeneration/PageManager/PageManager.s: Sources/StaticGeneration/PageManager/PageManager.cpp.s
 
-.PHONY : Sources/Views/PersonView/PersonView.s
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.s
 
 # target to generate assembly for a file
-Sources/Views/PersonView/PersonView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/PersonView/PersonView.cpp.s
-.PHONY : Sources/Views/PersonView/PersonView.cpp.s
+Sources/StaticGeneration/PageManager/PageManager.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageManager/PageManager.cpp.s
+.PHONY : Sources/StaticGeneration/PageManager/PageManager.cpp.s
 
-Sources/Views/Row/RowView.o: Sources/Views/Row/RowView.cpp.o
+Sources/StaticGeneration/Views/Cell/CellView.o: Sources/StaticGeneration/Views/Cell/CellView.cpp.o
 
-.PHONY : Sources/Views/Row/RowView.o
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.o
 
 # target to build an object file
-Sources/Views/Row/RowView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.o
-.PHONY : Sources/Views/Row/RowView.cpp.o
+Sources/StaticGeneration/Views/Cell/CellView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.cpp.o
 
-Sources/Views/Row/RowView.i: Sources/Views/Row/RowView.cpp.i
+Sources/StaticGeneration/Views/Cell/CellView.i: Sources/StaticGeneration/Views/Cell/CellView.cpp.i
 
-.PHONY : Sources/Views/Row/RowView.i
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.i
 
 # target to preprocess a source file
-Sources/Views/Row/RowView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.i
-.PHONY : Sources/Views/Row/RowView.cpp.i
+Sources/StaticGeneration/Views/Cell/CellView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.cpp.i
 
-Sources/Views/Row/RowView.s: Sources/Views/Row/RowView.cpp.s
+Sources/StaticGeneration/Views/Cell/CellView.s: Sources/StaticGeneration/Views/Cell/CellView.cpp.s
 
-.PHONY : Sources/Views/Row/RowView.s
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.s
 
 # target to generate assembly for a file
-Sources/Views/Row/RowView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Row/RowView.cpp.s
-.PHONY : Sources/Views/Row/RowView.cpp.s
+Sources/StaticGeneration/Views/Cell/CellView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Cell/CellView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/Cell/CellView.cpp.s
 
-Sources/Views/Samples/SampleViews.o: Sources/Views/Samples/SampleViews.cpp.o
+Sources/StaticGeneration/Views/Container/ContainerView.o: Sources/StaticGeneration/Views/Container/ContainerView.cpp.o
 
-.PHONY : Sources/Views/Samples/SampleViews.o
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.o
 
 # target to build an object file
-Sources/Views/Samples/SampleViews.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.o
-.PHONY : Sources/Views/Samples/SampleViews.cpp.o
+Sources/StaticGeneration/Views/Container/ContainerView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.cpp.o
 
-Sources/Views/Samples/SampleViews.i: Sources/Views/Samples/SampleViews.cpp.i
+Sources/StaticGeneration/Views/Container/ContainerView.i: Sources/StaticGeneration/Views/Container/ContainerView.cpp.i
 
-.PHONY : Sources/Views/Samples/SampleViews.i
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.i
 
 # target to preprocess a source file
-Sources/Views/Samples/SampleViews.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.i
-.PHONY : Sources/Views/Samples/SampleViews.cpp.i
+Sources/StaticGeneration/Views/Container/ContainerView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.cpp.i
 
-Sources/Views/Samples/SampleViews.s: Sources/Views/Samples/SampleViews.cpp.s
+Sources/StaticGeneration/Views/Container/ContainerView.s: Sources/StaticGeneration/Views/Container/ContainerView.cpp.s
 
-.PHONY : Sources/Views/Samples/SampleViews.s
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.s
 
 # target to generate assembly for a file
-Sources/Views/Samples/SampleViews.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/Samples/SampleViews.cpp.s
-.PHONY : Sources/Views/Samples/SampleViews.cpp.s
+Sources/StaticGeneration/Views/Container/ContainerView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Container/ContainerView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/Container/ContainerView.cpp.s
 
-Sources/Views/SecondaryView/SecondaryView.o: Sources/Views/SecondaryView/SecondaryView.cpp.o
+Sources/StaticGeneration/Views/Form/FormView.o: Sources/StaticGeneration/Views/Form/FormView.cpp.o
 
-.PHONY : Sources/Views/SecondaryView/SecondaryView.o
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.o
 
 # target to build an object file
-Sources/Views/SecondaryView/SecondaryView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.o
-.PHONY : Sources/Views/SecondaryView/SecondaryView.cpp.o
+Sources/StaticGeneration/Views/Form/FormView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.cpp.o
 
-Sources/Views/SecondaryView/SecondaryView.i: Sources/Views/SecondaryView/SecondaryView.cpp.i
+Sources/StaticGeneration/Views/Form/FormView.i: Sources/StaticGeneration/Views/Form/FormView.cpp.i
 
-.PHONY : Sources/Views/SecondaryView/SecondaryView.i
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.i
 
 # target to preprocess a source file
-Sources/Views/SecondaryView/SecondaryView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.i
-.PHONY : Sources/Views/SecondaryView/SecondaryView.cpp.i
+Sources/StaticGeneration/Views/Form/FormView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.cpp.i
 
-Sources/Views/SecondaryView/SecondaryView.s: Sources/Views/SecondaryView/SecondaryView.cpp.s
+Sources/StaticGeneration/Views/Form/FormView.s: Sources/StaticGeneration/Views/Form/FormView.cpp.s
 
-.PHONY : Sources/Views/SecondaryView/SecondaryView.s
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.s
 
 # target to generate assembly for a file
-Sources/Views/SecondaryView/SecondaryView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/SecondaryView/SecondaryView.cpp.s
-.PHONY : Sources/Views/SecondaryView/SecondaryView.cpp.s
+Sources/StaticGeneration/Views/Form/FormView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Form/FormView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/Form/FormView.cpp.s
 
-Sources/Views/TableView/TableView.o: Sources/Views/TableView/TableView.cpp.o
+Sources/StaticGeneration/Views/ImageView/ImageView.o: Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o
 
-.PHONY : Sources/Views/TableView/TableView.o
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.o
 
 # target to build an object file
-Sources/Views/TableView/TableView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.o
-.PHONY : Sources/Views/TableView/TableView.cpp.o
+Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.cpp.o
 
-Sources/Views/TableView/TableView.i: Sources/Views/TableView/TableView.cpp.i
+Sources/StaticGeneration/Views/ImageView/ImageView.i: Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i
 
-.PHONY : Sources/Views/TableView/TableView.i
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.i
 
 # target to preprocess a source file
-Sources/Views/TableView/TableView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.i
-.PHONY : Sources/Views/TableView/TableView.cpp.i
+Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.cpp.i
 
-Sources/Views/TableView/TableView.s: Sources/Views/TableView/TableView.cpp.s
+Sources/StaticGeneration/Views/ImageView/ImageView.s: Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s
 
-.PHONY : Sources/Views/TableView/TableView.s
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.s
 
 # target to generate assembly for a file
-Sources/Views/TableView/TableView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TableView/TableView.cpp.s
-.PHONY : Sources/Views/TableView/TableView.cpp.s
+Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/ImageView/ImageView.cpp.s
 
-Sources/Views/TextView/TextView.o: Sources/Views/TextView/TextView.cpp.o
+Sources/StaticGeneration/Views/PersonView/PersonView.o: Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o
 
-.PHONY : Sources/Views/TextView/TextView.o
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.o
 
 # target to build an object file
-Sources/Views/TextView/TextView.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.o
-.PHONY : Sources/Views/TextView/TextView.cpp.o
+Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.cpp.o
 
-Sources/Views/TextView/TextView.i: Sources/Views/TextView/TextView.cpp.i
+Sources/StaticGeneration/Views/PersonView/PersonView.i: Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i
 
-.PHONY : Sources/Views/TextView/TextView.i
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.i
 
 # target to preprocess a source file
-Sources/Views/TextView/TextView.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.i
-.PHONY : Sources/Views/TextView/TextView.cpp.i
+Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.cpp.i
 
-Sources/Views/TextView/TextView.s: Sources/Views/TextView/TextView.cpp.s
+Sources/StaticGeneration/Views/PersonView/PersonView.s: Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s
 
-.PHONY : Sources/Views/TextView/TextView.s
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.s
 
 # target to generate assembly for a file
-Sources/Views/TextView/TextView.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/TextView/TextView.cpp.s
-.PHONY : Sources/Views/TextView/TextView.cpp.s
+Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/PersonView/PersonView.cpp.s
 
-Sources/Views/UserData/UserData.o: Sources/Views/UserData/UserData.cpp.o
+Sources/StaticGeneration/Views/Row/RowView.o: Sources/StaticGeneration/Views/Row/RowView.cpp.o
 
-.PHONY : Sources/Views/UserData/UserData.o
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.o
 
 # target to build an object file
-Sources/Views/UserData/UserData.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.o
-.PHONY : Sources/Views/UserData/UserData.cpp.o
+Sources/StaticGeneration/Views/Row/RowView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.cpp.o
 
-Sources/Views/UserData/UserData.i: Sources/Views/UserData/UserData.cpp.i
+Sources/StaticGeneration/Views/Row/RowView.i: Sources/StaticGeneration/Views/Row/RowView.cpp.i
 
-.PHONY : Sources/Views/UserData/UserData.i
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.i
 
 # target to preprocess a source file
-Sources/Views/UserData/UserData.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.i
-.PHONY : Sources/Views/UserData/UserData.cpp.i
+Sources/StaticGeneration/Views/Row/RowView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.cpp.i
 
-Sources/Views/UserData/UserData.s: Sources/Views/UserData/UserData.cpp.s
+Sources/StaticGeneration/Views/Row/RowView.s: Sources/StaticGeneration/Views/Row/RowView.cpp.s
 
-.PHONY : Sources/Views/UserData/UserData.s
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.s
 
 # target to generate assembly for a file
-Sources/Views/UserData/UserData.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/UserData/UserData.cpp.s
-.PHONY : Sources/Views/UserData/UserData.cpp.s
+Sources/StaticGeneration/Views/Row/RowView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/Row/RowView.cpp.s
 
-Sources/Views/View/View.o: Sources/Views/View/View.cpp.o
+Sources/StaticGeneration/Views/Samples/SampleViews.o: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
 
-.PHONY : Sources/Views/View/View.o
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.o
 
 # target to build an object file
-Sources/Views/View/View.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.o
-.PHONY : Sources/Views/View/View.cpp.o
+Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
 
-Sources/Views/View/View.i: Sources/Views/View/View.cpp.i
+Sources/StaticGeneration/Views/Samples/SampleViews.i: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
 
-.PHONY : Sources/Views/View/View.i
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.i
 
 # target to preprocess a source file
-Sources/Views/View/View.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.i
-.PHONY : Sources/Views/View/View.cpp.i
+Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
 
-Sources/Views/View/View.s: Sources/Views/View/View.cpp.s
+Sources/StaticGeneration/Views/Samples/SampleViews.s: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
 
-.PHONY : Sources/Views/View/View.s
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.s
 
 # target to generate assembly for a file
-Sources/Views/View/View.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Views/View/View.cpp.s
-.PHONY : Sources/Views/View/View.cpp.s
+Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
+.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
+
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.o: Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o
+
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.o
+
+# target to build an object file
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o
+
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.i: Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i
+
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.i
+
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.s: Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s
+
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.s
+
+Sources/StaticGeneration/Views/TableView/TableView.o: Sources/StaticGeneration/Views/TableView/TableView.cpp.o
+
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.o
+
+# target to build an object file
+Sources/StaticGeneration/Views/TableView/TableView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.cpp.o
+
+Sources/StaticGeneration/Views/TableView/TableView.i: Sources/StaticGeneration/Views/TableView/TableView.cpp.i
+
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/Views/TableView/TableView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.cpp.i
+
+Sources/StaticGeneration/Views/TableView/TableView.s: Sources/StaticGeneration/Views/TableView/TableView.cpp.s
+
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/Views/TableView/TableView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TableView/TableView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/TableView/TableView.cpp.s
+
+Sources/StaticGeneration/Views/TextView/TextView.o: Sources/StaticGeneration/Views/TextView/TextView.cpp.o
+
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.o
+
+# target to build an object file
+Sources/StaticGeneration/Views/TextView/TextView.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.o
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.cpp.o
+
+Sources/StaticGeneration/Views/TextView/TextView.i: Sources/StaticGeneration/Views/TextView/TextView.cpp.i
+
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/Views/TextView/TextView.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.i
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.cpp.i
+
+Sources/StaticGeneration/Views/TextView/TextView.s: Sources/StaticGeneration/Views/TextView/TextView.cpp.s
+
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/Views/TextView/TextView.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/TextView/TextView.cpp.s
+.PHONY : Sources/StaticGeneration/Views/TextView/TextView.cpp.s
+
+Sources/StaticGeneration/Views/UserData/UserData.o: Sources/StaticGeneration/Views/UserData/UserData.cpp.o
+
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.o
+
+# target to build an object file
+Sources/StaticGeneration/Views/UserData/UserData.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.o
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.cpp.o
+
+Sources/StaticGeneration/Views/UserData/UserData.i: Sources/StaticGeneration/Views/UserData/UserData.cpp.i
+
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/Views/UserData/UserData.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.i
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.cpp.i
+
+Sources/StaticGeneration/Views/UserData/UserData.s: Sources/StaticGeneration/Views/UserData/UserData.cpp.s
+
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/Views/UserData/UserData.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/UserData/UserData.cpp.s
+.PHONY : Sources/StaticGeneration/Views/UserData/UserData.cpp.s
+
+Sources/StaticGeneration/Views/View/View.o: Sources/StaticGeneration/Views/View/View.cpp.o
+
+.PHONY : Sources/StaticGeneration/Views/View/View.o
+
+# target to build an object file
+Sources/StaticGeneration/Views/View/View.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.o
+.PHONY : Sources/StaticGeneration/Views/View/View.cpp.o
+
+Sources/StaticGeneration/Views/View/View.i: Sources/StaticGeneration/Views/View/View.cpp.i
+
+.PHONY : Sources/StaticGeneration/Views/View/View.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/Views/View/View.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.i
+.PHONY : Sources/StaticGeneration/Views/View/View.cpp.i
+
+Sources/StaticGeneration/Views/View/View.s: Sources/StaticGeneration/Views/View/View.cpp.s
+
+.PHONY : Sources/StaticGeneration/Views/View/View.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/Views/View/View.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/View/View.cpp.s
+.PHONY : Sources/StaticGeneration/Views/View/View.cpp.s
+
+Sources/WebCrowler/API/FacebookAPI.o: Sources/WebCrowler/API/FacebookAPI.cpp.o
+
+.PHONY : Sources/WebCrowler/API/FacebookAPI.o
+
+# target to build an object file
+Sources/WebCrowler/API/FacebookAPI.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.o
+.PHONY : Sources/WebCrowler/API/FacebookAPI.cpp.o
+
+Sources/WebCrowler/API/FacebookAPI.i: Sources/WebCrowler/API/FacebookAPI.cpp.i
+
+.PHONY : Sources/WebCrowler/API/FacebookAPI.i
+
+# target to preprocess a source file
+Sources/WebCrowler/API/FacebookAPI.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.i
+.PHONY : Sources/WebCrowler/API/FacebookAPI.cpp.i
+
+Sources/WebCrowler/API/FacebookAPI.s: Sources/WebCrowler/API/FacebookAPI.cpp.s
+
+.PHONY : Sources/WebCrowler/API/FacebookAPI.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/API/FacebookAPI.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/FacebookAPI.cpp.s
+.PHONY : Sources/WebCrowler/API/FacebookAPI.cpp.s
+
+Sources/WebCrowler/API/OkAPI.o: Sources/WebCrowler/API/OkAPI.cpp.o
+
+.PHONY : Sources/WebCrowler/API/OkAPI.o
+
+# target to build an object file
+Sources/WebCrowler/API/OkAPI.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.o
+.PHONY : Sources/WebCrowler/API/OkAPI.cpp.o
+
+Sources/WebCrowler/API/OkAPI.i: Sources/WebCrowler/API/OkAPI.cpp.i
+
+.PHONY : Sources/WebCrowler/API/OkAPI.i
+
+# target to preprocess a source file
+Sources/WebCrowler/API/OkAPI.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.i
+.PHONY : Sources/WebCrowler/API/OkAPI.cpp.i
+
+Sources/WebCrowler/API/OkAPI.s: Sources/WebCrowler/API/OkAPI.cpp.s
+
+.PHONY : Sources/WebCrowler/API/OkAPI.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/API/OkAPI.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/OkAPI.cpp.s
+.PHONY : Sources/WebCrowler/API/OkAPI.cpp.s
+
+Sources/WebCrowler/API/VkAPI.o: Sources/WebCrowler/API/VkAPI.cpp.o
+
+.PHONY : Sources/WebCrowler/API/VkAPI.o
+
+# target to build an object file
+Sources/WebCrowler/API/VkAPI.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.o
+.PHONY : Sources/WebCrowler/API/VkAPI.cpp.o
+
+Sources/WebCrowler/API/VkAPI.i: Sources/WebCrowler/API/VkAPI.cpp.i
+
+.PHONY : Sources/WebCrowler/API/VkAPI.i
+
+# target to preprocess a source file
+Sources/WebCrowler/API/VkAPI.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.i
+.PHONY : Sources/WebCrowler/API/VkAPI.cpp.i
+
+Sources/WebCrowler/API/VkAPI.s: Sources/WebCrowler/API/VkAPI.cpp.s
+
+.PHONY : Sources/WebCrowler/API/VkAPI.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/API/VkAPI.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/API/VkAPI.cpp.s
+.PHONY : Sources/WebCrowler/API/VkAPI.cpp.s
+
+Sources/WebCrowler/Crowler/Crowler.o: Sources/WebCrowler/Crowler/Crowler.cpp.o
+
+.PHONY : Sources/WebCrowler/Crowler/Crowler.o
+
+# target to build an object file
+Sources/WebCrowler/Crowler/Crowler.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o
+.PHONY : Sources/WebCrowler/Crowler/Crowler.cpp.o
+
+Sources/WebCrowler/Crowler/Crowler.i: Sources/WebCrowler/Crowler/Crowler.cpp.i
+
+.PHONY : Sources/WebCrowler/Crowler/Crowler.i
+
+# target to preprocess a source file
+Sources/WebCrowler/Crowler/Crowler.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.i
+.PHONY : Sources/WebCrowler/Crowler/Crowler.cpp.i
+
+Sources/WebCrowler/Crowler/Crowler.s: Sources/WebCrowler/Crowler/Crowler.cpp.s
+
+.PHONY : Sources/WebCrowler/Crowler/Crowler.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/Crowler/Crowler.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.s
+.PHONY : Sources/WebCrowler/Crowler/Crowler.cpp.s
+
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.o: Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.o
+
+# target to build an object file
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.o
+
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.i: Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.i
+
+# target to preprocess a source file
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.i
+
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.s: Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp.s
+
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.o: Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.o
+
+# target to build an object file
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.o
+
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.i: Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.i
+
+# target to preprocess a source file
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.i
+
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.s: Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp.s
+
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.o: Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.o
+
+# target to build an object file
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.o
+
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.i: Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.i
+
+# target to preprocess a source file
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.i
+
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.s: Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s
+
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s
+.PHONY : Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp.s
+
+Sources/WebCrowler/NetService/NetService.o: Sources/WebCrowler/NetService/NetService.cpp.o
+
+.PHONY : Sources/WebCrowler/NetService/NetService.o
+
+# target to build an object file
+Sources/WebCrowler/NetService/NetService.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o
+.PHONY : Sources/WebCrowler/NetService/NetService.cpp.o
+
+Sources/WebCrowler/NetService/NetService.i: Sources/WebCrowler/NetService/NetService.cpp.i
+
+.PHONY : Sources/WebCrowler/NetService/NetService.i
+
+# target to preprocess a source file
+Sources/WebCrowler/NetService/NetService.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.i
+.PHONY : Sources/WebCrowler/NetService/NetService.cpp.i
+
+Sources/WebCrowler/NetService/NetService.s: Sources/WebCrowler/NetService/NetService.cpp.s
+
+.PHONY : Sources/WebCrowler/NetService/NetService.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/NetService/NetService.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.s
+.PHONY : Sources/WebCrowler/NetService/NetService.cpp.s
+
+Sources/WebCrowler/response/response.o: Sources/WebCrowler/response/response.cpp.o
+
+.PHONY : Sources/WebCrowler/response/response.o
+
+# target to build an object file
+Sources/WebCrowler/response/response.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o
+.PHONY : Sources/WebCrowler/response/response.cpp.o
+
+Sources/WebCrowler/response/response.i: Sources/WebCrowler/response/response.cpp.i
+
+.PHONY : Sources/WebCrowler/response/response.i
+
+# target to preprocess a source file
+Sources/WebCrowler/response/response.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.i
+.PHONY : Sources/WebCrowler/response/response.cpp.i
+
+Sources/WebCrowler/response/response.s: Sources/WebCrowler/response/response.cpp.s
+
+.PHONY : Sources/WebCrowler/response/response.s
+
+# target to generate assembly for a file
+Sources/WebCrowler/response/response.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.s
+.PHONY : Sources/WebCrowler/response/response.cpp.s
+
+Sources/WebServer/HttpRequest/HttpRequest.o: Sources/WebServer/HttpRequest/HttpRequest.cpp.o
+
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.o
+
+# target to build an object file
+Sources/WebServer/HttpRequest/HttpRequest.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.o
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.cpp.o
+
+Sources/WebServer/HttpRequest/HttpRequest.i: Sources/WebServer/HttpRequest/HttpRequest.cpp.i
+
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.i
+
+# target to preprocess a source file
+Sources/WebServer/HttpRequest/HttpRequest.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.i
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.cpp.i
+
+Sources/WebServer/HttpRequest/HttpRequest.s: Sources/WebServer/HttpRequest/HttpRequest.cpp.s
+
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.s
+
+# target to generate assembly for a file
+Sources/WebServer/HttpRequest/HttpRequest.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpRequest/HttpRequest.cpp.s
+.PHONY : Sources/WebServer/HttpRequest/HttpRequest.cpp.s
+
+Sources/WebServer/HttpResponse/HttpResponse.o: Sources/WebServer/HttpResponse/HttpResponse.cpp.o
+
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.o
+
+# target to build an object file
+Sources/WebServer/HttpResponse/HttpResponse.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.o
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.cpp.o
+
+Sources/WebServer/HttpResponse/HttpResponse.i: Sources/WebServer/HttpResponse/HttpResponse.cpp.i
+
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.i
+
+# target to preprocess a source file
+Sources/WebServer/HttpResponse/HttpResponse.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.i
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.cpp.i
+
+Sources/WebServer/HttpResponse/HttpResponse.s: Sources/WebServer/HttpResponse/HttpResponse.cpp.s
+
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.s
+
+# target to generate assembly for a file
+Sources/WebServer/HttpResponse/HttpResponse.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/HttpResponse/HttpResponse.cpp.s
+.PHONY : Sources/WebServer/HttpResponse/HttpResponse.cpp.s
+
+Sources/WebServer/LRU/LRU.o: Sources/WebServer/LRU/LRU.cpp.o
+
+.PHONY : Sources/WebServer/LRU/LRU.o
+
+# target to build an object file
+Sources/WebServer/LRU/LRU.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.o
+.PHONY : Sources/WebServer/LRU/LRU.cpp.o
+
+Sources/WebServer/LRU/LRU.i: Sources/WebServer/LRU/LRU.cpp.i
+
+.PHONY : Sources/WebServer/LRU/LRU.i
+
+# target to preprocess a source file
+Sources/WebServer/LRU/LRU.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.i
+.PHONY : Sources/WebServer/LRU/LRU.cpp.i
+
+Sources/WebServer/LRU/LRU.s: Sources/WebServer/LRU/LRU.cpp.s
+
+.PHONY : Sources/WebServer/LRU/LRU.s
+
+# target to generate assembly for a file
+Sources/WebServer/LRU/LRU.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/LRU/LRU.cpp.s
+.PHONY : Sources/WebServer/LRU/LRU.cpp.s
+
+Sources/WebServer/Server/Server.o: Sources/WebServer/Server/Server.cpp.o
+
+.PHONY : Sources/WebServer/Server/Server.o
+
+# target to build an object file
+Sources/WebServer/Server/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.o
+.PHONY : Sources/WebServer/Server/Server.cpp.o
+
+Sources/WebServer/Server/Server.i: Sources/WebServer/Server/Server.cpp.i
+
+.PHONY : Sources/WebServer/Server/Server.i
+
+# target to preprocess a source file
+Sources/WebServer/Server/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.i
+.PHONY : Sources/WebServer/Server/Server.cpp.i
+
+Sources/WebServer/Server/Server.s: Sources/WebServer/Server/Server.cpp.s
+
+.PHONY : Sources/WebServer/Server/Server.s
+
+# target to generate assembly for a file
+Sources/WebServer/Server/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/WebServer/Server/Server.cpp.s
+.PHONY : Sources/WebServer/Server/Server.cpp.s
 
 Sources/main.o: Sources/main.cpp.o
 
@@ -699,66 +1158,117 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CPProject.out"
-	@echo "... Sources/HttpRequest/HttpRequest.o"
-	@echo "... Sources/HttpRequest/HttpRequest.i"
-	@echo "... Sources/HttpRequest/HttpRequest.s"
-	@echo "... Sources/HttpResponse/HttpResponse.o"
-	@echo "... Sources/HttpResponse/HttpResponse.i"
-	@echo "... Sources/HttpResponse/HttpResponse.s"
-	@echo "... Sources/LRU/LRU.o"
-	@echo "... Sources/LRU/LRU.i"
-	@echo "... Sources/LRU/LRU.s"
-	@echo "... Sources/Page/Page.o"
-	@echo "... Sources/Page/Page.i"
-	@echo "... Sources/Page/Page.s"
-	@echo "... Sources/PageData/PageData.o"
-	@echo "... Sources/PageData/PageData.i"
-	@echo "... Sources/PageData/PageData.s"
-	@echo "... Sources/PageGenerator/PageGenerator.o"
-	@echo "... Sources/PageGenerator/PageGenerator.i"
-	@echo "... Sources/PageGenerator/PageGenerator.s"
-	@echo "... Sources/PageManager/PageManager.o"
-	@echo "... Sources/PageManager/PageManager.i"
-	@echo "... Sources/PageManager/PageManager.s"
-	@echo "... Sources/Server/Server.o"
-	@echo "... Sources/Server/Server.i"
-	@echo "... Sources/Server/Server.s"
-	@echo "... Sources/Views/Cell/CellView.o"
-	@echo "... Sources/Views/Cell/CellView.i"
-	@echo "... Sources/Views/Cell/CellView.s"
-	@echo "... Sources/Views/Container/ContainerView.o"
-	@echo "... Sources/Views/Container/ContainerView.i"
-	@echo "... Sources/Views/Container/ContainerView.s"
-	@echo "... Sources/Views/Form/FormView.o"
-	@echo "... Sources/Views/Form/FormView.i"
-	@echo "... Sources/Views/Form/FormView.s"
-	@echo "... Sources/Views/ImageView/ImageView.o"
-	@echo "... Sources/Views/ImageView/ImageView.i"
-	@echo "... Sources/Views/ImageView/ImageView.s"
-	@echo "... Sources/Views/PersonView/PersonView.o"
-	@echo "... Sources/Views/PersonView/PersonView.i"
-	@echo "... Sources/Views/PersonView/PersonView.s"
-	@echo "... Sources/Views/Row/RowView.o"
-	@echo "... Sources/Views/Row/RowView.i"
-	@echo "... Sources/Views/Row/RowView.s"
-	@echo "... Sources/Views/Samples/SampleViews.o"
-	@echo "... Sources/Views/Samples/SampleViews.i"
-	@echo "... Sources/Views/Samples/SampleViews.s"
-	@echo "... Sources/Views/SecondaryView/SecondaryView.o"
-	@echo "... Sources/Views/SecondaryView/SecondaryView.i"
-	@echo "... Sources/Views/SecondaryView/SecondaryView.s"
-	@echo "... Sources/Views/TableView/TableView.o"
-	@echo "... Sources/Views/TableView/TableView.i"
-	@echo "... Sources/Views/TableView/TableView.s"
-	@echo "... Sources/Views/TextView/TextView.o"
-	@echo "... Sources/Views/TextView/TextView.i"
-	@echo "... Sources/Views/TextView/TextView.s"
-	@echo "... Sources/Views/UserData/UserData.o"
-	@echo "... Sources/Views/UserData/UserData.i"
-	@echo "... Sources/Views/UserData/UserData.s"
-	@echo "... Sources/Views/View/View.o"
-	@echo "... Sources/Views/View/View.i"
-	@echo "... Sources/Views/View/View.s"
+	@echo "... Sources/Base/BaseContainer.o"
+	@echo "... Sources/Base/BaseContainer.i"
+	@echo "... Sources/Base/BaseContainer.s"
+	@echo "... Sources/Base/BaseDataStructure.o"
+	@echo "... Sources/Base/BaseDataStructure.i"
+	@echo "... Sources/Base/BaseDataStructure.s"
+	@echo "... Sources/Base/BaseSearchEngine.o"
+	@echo "... Sources/Base/BaseSearchEngine.i"
+	@echo "... Sources/Base/BaseSearchEngine.s"
+	@echo "... Sources/KD/Container.o"
+	@echo "... Sources/KD/Container.i"
+	@echo "... Sources/KD/Container.s"
+	@echo "... Sources/KD/DB.o"
+	@echo "... Sources/KD/DB.i"
+	@echo "... Sources/KD/DB.s"
+	@echo "... Sources/KD/DBManager.o"
+	@echo "... Sources/KD/DBManager.i"
+	@echo "... Sources/KD/DBManager.s"
+	@echo "... Sources/KD/KDTree.o"
+	@echo "... Sources/KD/KDTree.i"
+	@echo "... Sources/KD/KDTree.s"
+	@echo "... Sources/KD/SearchEngine.o"
+	@echo "... Sources/KD/SearchEngine.i"
+	@echo "... Sources/KD/SearchEngine.s"
+	@echo "... Sources/StaticGeneration/Page/Page.o"
+	@echo "... Sources/StaticGeneration/Page/Page.i"
+	@echo "... Sources/StaticGeneration/Page/Page.s"
+	@echo "... Sources/StaticGeneration/PageData/PageData.o"
+	@echo "... Sources/StaticGeneration/PageData/PageData.i"
+	@echo "... Sources/StaticGeneration/PageData/PageData.s"
+	@echo "... Sources/StaticGeneration/PageGenerator/PageGenerator.o"
+	@echo "... Sources/StaticGeneration/PageGenerator/PageGenerator.i"
+	@echo "... Sources/StaticGeneration/PageGenerator/PageGenerator.s"
+	@echo "... Sources/StaticGeneration/PageManager/PageManager.o"
+	@echo "... Sources/StaticGeneration/PageManager/PageManager.i"
+	@echo "... Sources/StaticGeneration/PageManager/PageManager.s"
+	@echo "... Sources/StaticGeneration/Views/Cell/CellView.o"
+	@echo "... Sources/StaticGeneration/Views/Cell/CellView.i"
+	@echo "... Sources/StaticGeneration/Views/Cell/CellView.s"
+	@echo "... Sources/StaticGeneration/Views/Container/ContainerView.o"
+	@echo "... Sources/StaticGeneration/Views/Container/ContainerView.i"
+	@echo "... Sources/StaticGeneration/Views/Container/ContainerView.s"
+	@echo "... Sources/StaticGeneration/Views/Form/FormView.o"
+	@echo "... Sources/StaticGeneration/Views/Form/FormView.i"
+	@echo "... Sources/StaticGeneration/Views/Form/FormView.s"
+	@echo "... Sources/StaticGeneration/Views/ImageView/ImageView.o"
+	@echo "... Sources/StaticGeneration/Views/ImageView/ImageView.i"
+	@echo "... Sources/StaticGeneration/Views/ImageView/ImageView.s"
+	@echo "... Sources/StaticGeneration/Views/PersonView/PersonView.o"
+	@echo "... Sources/StaticGeneration/Views/PersonView/PersonView.i"
+	@echo "... Sources/StaticGeneration/Views/PersonView/PersonView.s"
+	@echo "... Sources/StaticGeneration/Views/Row/RowView.o"
+	@echo "... Sources/StaticGeneration/Views/Row/RowView.i"
+	@echo "... Sources/StaticGeneration/Views/Row/RowView.s"
+	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.o"
+	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.i"
+	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.s"
+	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.o"
+	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.i"
+	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.s"
+	@echo "... Sources/StaticGeneration/Views/TableView/TableView.o"
+	@echo "... Sources/StaticGeneration/Views/TableView/TableView.i"
+	@echo "... Sources/StaticGeneration/Views/TableView/TableView.s"
+	@echo "... Sources/StaticGeneration/Views/TextView/TextView.o"
+	@echo "... Sources/StaticGeneration/Views/TextView/TextView.i"
+	@echo "... Sources/StaticGeneration/Views/TextView/TextView.s"
+	@echo "... Sources/StaticGeneration/Views/UserData/UserData.o"
+	@echo "... Sources/StaticGeneration/Views/UserData/UserData.i"
+	@echo "... Sources/StaticGeneration/Views/UserData/UserData.s"
+	@echo "... Sources/StaticGeneration/Views/View/View.o"
+	@echo "... Sources/StaticGeneration/Views/View/View.i"
+	@echo "... Sources/StaticGeneration/Views/View/View.s"
+	@echo "... Sources/WebCrowler/API/FacebookAPI.o"
+	@echo "... Sources/WebCrowler/API/FacebookAPI.i"
+	@echo "... Sources/WebCrowler/API/FacebookAPI.s"
+	@echo "... Sources/WebCrowler/API/OkAPI.o"
+	@echo "... Sources/WebCrowler/API/OkAPI.i"
+	@echo "... Sources/WebCrowler/API/OkAPI.s"
+	@echo "... Sources/WebCrowler/API/VkAPI.o"
+	@echo "... Sources/WebCrowler/API/VkAPI.i"
+	@echo "... Sources/WebCrowler/API/VkAPI.s"
+	@echo "... Sources/WebCrowler/Crowler/Crowler.o"
+	@echo "... Sources/WebCrowler/Crowler/Crowler.i"
+	@echo "... Sources/WebCrowler/Crowler/Crowler.s"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.o"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.i"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.s"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.o"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.i"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.s"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.o"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.i"
+	@echo "... Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.s"
+	@echo "... Sources/WebCrowler/NetService/NetService.o"
+	@echo "... Sources/WebCrowler/NetService/NetService.i"
+	@echo "... Sources/WebCrowler/NetService/NetService.s"
+	@echo "... Sources/WebCrowler/response/response.o"
+	@echo "... Sources/WebCrowler/response/response.i"
+	@echo "... Sources/WebCrowler/response/response.s"
+	@echo "... Sources/WebServer/HttpRequest/HttpRequest.o"
+	@echo "... Sources/WebServer/HttpRequest/HttpRequest.i"
+	@echo "... Sources/WebServer/HttpRequest/HttpRequest.s"
+	@echo "... Sources/WebServer/HttpResponse/HttpResponse.o"
+	@echo "... Sources/WebServer/HttpResponse/HttpResponse.i"
+	@echo "... Sources/WebServer/HttpResponse/HttpResponse.s"
+	@echo "... Sources/WebServer/LRU/LRU.o"
+	@echo "... Sources/WebServer/LRU/LRU.i"
+	@echo "... Sources/WebServer/LRU/LRU.s"
+	@echo "... Sources/WebServer/Server/Server.o"
+	@echo "... Sources/WebServer/Server/Server.i"
+	@echo "... Sources/WebServer/Server/Server.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

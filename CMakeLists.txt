@@ -9,79 +9,164 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Sources)
 
 
 
+#set(GTESTS ${CMAKE_CURRENT_SOURCE_DIR}/Google_tests)
+
+
+find_package(libmongocxx REQUIRED)
+find_package(libbsoncxx REQUIRED)
+include_directories(${LIBMONGOCXX_INCLUDE_DIR})
+include_directories(${LIBBSONCXX_INCLUDE_DIR})
+include_directories("/usr/local/include/mongocxx/v_noabi")
+include_directories("/usr/local/include/bsoncxx/v_noabi")
+include_directories("/usr/local/include/libmongoc-1.0")
+include_directories("/usr/local/include/libbson-1.0")
+include_directories("/usr/local/lib")
+
+
+
 
 include_directories(${CMAKE_MODULE_PATH})
 
-include_directories(${CMAKE_MODULE_PATH}/Views)
-include_directories(${CMAKE_MODULE_PATH}/PageData)
-include_directories(${CMAKE_MODULE_PATH}/Page)
-include_directories(${CMAKE_MODULE_PATH}/PageGenerator)
-include_directories(${CMAKE_MODULE_PATH}/PageManager)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Views)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/PageData)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Page)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/PageGenerator)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/PageManager)
 
-include_directories(${CMAKE_MODULE_PATH}/HttpResponse)
-include_directories(${CMAKE_MODULE_PATH}/HttpRequest)
-include_directories(${CMAKE_MODULE_PATH}/LRU)
-include_directories(${CMAKE_MODULE_PATH}/Server)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/HttpResponse)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/HttpRequest)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/LRU)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Server)
+
 
 set(ALL_SOURCES
 
-        ${CMAKE_MODULE_PATH}/Views/SecondaryView/SecondaryView.cpp
-        ${CMAKE_MODULE_PATH}/Views/UserData/UserData.cpp
-        ${CMAKE_MODULE_PATH}/Views/Container/ContainerView.cpp
-        ${CMAKE_MODULE_PATH}/Views/Cell/CellView.cpp
-        ${CMAKE_MODULE_PATH}/Views/Row/RowView.cpp
-        ${CMAKE_MODULE_PATH}/Views/ImageView/ImageView.cpp
-        ${CMAKE_MODULE_PATH}/Views/TableView/TableView.cpp
-        ${CMAKE_MODULE_PATH}/Views/TextView/TextView.cpp
-        ${CMAKE_MODULE_PATH}/Views/View/View.cpp
-        ${CMAKE_MODULE_PATH}/Views/Samples/SampleViews.cpp
-        ${CMAKE_MODULE_PATH}/Views/PersonView/PersonView.cpp
-        ${CMAKE_MODULE_PATH}/Views/Form/FormView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/SecondaryView/SecondaryView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/UserData/UserData.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Container/ContainerView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Cell/CellView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Row/RowView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/ImageView/ImageView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/TableView/TableView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/TextView/TextView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/View/View.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Samples/SampleViews.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/PersonView/PersonView.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Form/FormView.cpp
 
 
 
-        ${CMAKE_MODULE_PATH}/Page/Page.cpp
-        ${CMAKE_MODULE_PATH}/PageGenerator/PageGenerator.cpp
-        ${CMAKE_MODULE_PATH}/PageManager/PageManager.cpp
-        ${CMAKE_MODULE_PATH}/PageData/PageData.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Page/Page.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageGenerator/PageGenerator.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageManager/PageManager.cpp
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageData/PageData.cpp
 
-        ${CMAKE_MODULE_PATH}/HttpRequest/HttpRequest.cpp
-        ${CMAKE_MODULE_PATH}/HttpResponse/HttpResponse.cpp
-        ${CMAKE_MODULE_PATH}/LRU/LRU.cpp
-        ${CMAKE_MODULE_PATH}/Server/Server.cpp
+        ${CMAKE_MODULE_PATH}/WebServer/HttpRequest/HttpRequest.cpp
+        ${CMAKE_MODULE_PATH}/WebServer/HttpResponse/HttpResponse.cpp
+        ${CMAKE_MODULE_PATH}/WebServer/LRU/LRU.cpp
+        ${CMAKE_MODULE_PATH}/WebServer/Server/Server.cpp
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/API/FacebookAPI.cpp
+        ${CMAKE_MODULE_PATH}/WebCrowler/API/OkAPI.cpp
+        ${CMAKE_MODULE_PATH}/WebCrowler/API/VkAPI.cpp
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/Crowler/Crowler.cpp
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/Id_list_generator_strategy/Facebook_id_list_generator_strategy.cpp
+        ${CMAKE_MODULE_PATH}/WebCrowler/Id_list_generator_strategy/Ok_id_list_generator_strategy.cpp
+        ${CMAKE_MODULE_PATH}/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/NetService/NetService.cpp
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/response/response.cpp
+
+        ${CMAKE_MODULE_PATH}/Base/BaseContainer.cpp
+        ${CMAKE_MODULE_PATH}/Base/BaseDataStructure.cpp
+        ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.cpp
+
+        ${CMAKE_MODULE_PATH}/KD/Container.cpp
+        ${CMAKE_MODULE_PATH}/KD/DB.cpp
+        ${CMAKE_MODULE_PATH}/KD/DBManager.cpp
+        ${CMAKE_MODULE_PATH}/KD/KDTree.cpp
+        ${CMAKE_MODULE_PATH}/KD/SearchEngine.cpp
+
+
         )
 
 
 set(ALL_VIEWS_HEADERS
-        ${CMAKE_MODULE_PATH}/Views/UserData/
-        ${CMAKE_MODULE_PATH}/Views/Container/
-        ${CMAKE_MODULE_PATH}/Views/Cell/
-        ${CMAKE_MODULE_PATH}/Views/Row/
-        ${CMAKE_MODULE_PATH}/Views/ImageView/
-        ${CMAKE_MODULE_PATH}/Views/TableView/
-        ${CMAKE_MODULE_PATH}/Views/TextView/
-        ${CMAKE_MODULE_PATH}/Views/View/
-        ${CMAKE_MODULE_PATH}/Views/PersonView/
-        ${CMAKE_MODULE_PATH}/Views/SecondaryView/
-        ${CMAKE_MODULE_PATH}/Views/Form/
-        ${CMAKE_MODULE_PATH}/Views/Samples/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/UserData/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Container/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Cell/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Row/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/ImageView/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/TableView/
+        ${CMAKE_MODULE_PATH}v/Views/TextView/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/View/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/PersonView/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/SecondaryView/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Form/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Samples/
 
-        ${CMAKE_MODULE_PATH}/Page/
-        ${CMAKE_MODULE_PATH}/PageGenerator/
-        ${CMAKE_MODULE_PATH}/PageManager/
-        ${CMAKE_MODULE_PATH}/PageData/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/Page/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageGenerator/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageManager/
+        ${CMAKE_MODULE_PATH}/StaticGeneration/PageData/
+
+        ${CMAKE_MODULE_PATH}/WebServer/HttpRequest/
+        ${CMAKE_MODULE_PATH}/WebServer/HttpResponse/
+        ${CMAKE_MODULE_PATH}/WebServer/LRU/
+        ${CMAKE_MODULE_PATH}/WebServer/Server/
+
+
+
+        ${CMAKE_MODULE_PATH}/WebCrowler/AbstractClasses/
+        ${CMAKE_MODULE_PATH}/WebCrowler/API/
+        ${CMAKE_MODULE_PATH}/WebCrowler/Crowler/
+        ${CMAKE_MODULE_PATH}/WebCrowler/Id_list_generator_straregy/
+        ${CMAKE_MODULE_PATH}/WebCrowler/NetService/
+        ${CMAKE_MODULE_PATH}/WebCrowler/response/
+        ${CMAKE_MODULE_PATH}/WebCrowler/url/
+
+
+        ${CMAKE_MODULE_PATH}/Base/BaseContainer.h
+        ${CMAKE_MODULE_PATH}/Base/BaseDataStructure.h
+        ${CMAKE_MODULE_PATH}/Base/BaseDB.h
+        ${CMAKE_MODULE_PATH}/Base/BaseDBManager.h
+        ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.h
+
+        ${CMAKE_MODULE_PATH}/KD/Contaier.h
+        ${CMAKE_MODULE_PATH}/KD/DB.h
+        ${CMAKE_MODULE_PATH}/KD/DBManager.h
+        ${CMAKE_MODULE_PATH}/KD/KDTree.h
+        ${CMAKE_MODULE_PATH}/KD/SearchEngine.h
+
         )
 
 include_directories(${ALL_SOURCES})
 include_directories(${ALL_HEADERS})
 
 
+
 add_executable(CPProject.out  ${CMAKE_MODULE_PATH}/main.cpp ${ALL_SOURCES} )
 
 
 
+find_package(Boost)
 
+include_directories(${Boost_INCLUDE_DIRS})
 
+target_link_libraries(CPProject.out  ${Boost_LIBRARIES})
+
+set(CURL_LIBRARY "-lcurl")
+find_package(CURL REQUIRED)
+include_directories(${CURL_INCLUDE_DIR})
+target_link_libraries(CPProject.out ${CURL_LIBRARIES})
+
+target_link_libraries(CPProject.out ${LIBMONGOCXX_LIBRARIES})
+target_link_libraries(CPProject.out ${LIBBSONCXX_LIBRARIES})
+
+#add_subdirectory(Google_tests)
 
 
 #add_executable(CPProject Sources/main.cpp Sources/Views/Container/ContainerView.cpp Sources/Views/Container/ContainerView.h Sources/Views/View/View.cpp Sources/Views/View/View.h Sources/Page/Page.cpp Sources/Page/Page.h Sources/Views/TableView/TableView.cpp Sources/Views/TableView/TableView.h Sources/Views/Column/ColumnView.cpp Sources/Views/Column/ColumnView.h Sources/Views/Row/RowView.cpp Sources/Views/Row/RowView.h Sources/Views/Button/Button.cpp Sources/Views/Button/Button.h Sources/Views/TextView/TextView.cpp Sources/Views/TextView/TextView.h Sources/Views/ImageView/ImageView.cpp Sources/Views/ImageView/ImageView.h Sources/Views/ViewAttributes.cpp Sources/Views/View/ViewAttributes.h Sources/Views/Selector/Selector.cpp Sources/Views/Selector/Selector.h Sources/Views/Type/Type.cpp Sources/Views/Type/Type.h Sources/PageGenerator/PageGenerator.cpp Sources/PageGenerator/PageGenerator.h Sources/PageManager/PageManager.cpp Sources/PageManager/PageManager.h)
