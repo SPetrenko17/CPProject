@@ -17,10 +17,12 @@
 class PageGenerator {
 
 public:
-
+    int PORT;
     Page *page;
 
-    PageGenerator() = default;
+    PageGenerator(int port){
+        PORT = port;
+    }
 
     Page *generateTablePage(std::vector<UserData *> userData, Organize o);
 

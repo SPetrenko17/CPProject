@@ -123,6 +123,33 @@ CPProject.out/fast:
 	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/build
 .PHONY : CPProject.out/fast
 
+Sources/Base/BaseComporator.o: Sources/Base/BaseComporator.cpp.o
+
+.PHONY : Sources/Base/BaseComporator.o
+
+# target to build an object file
+Sources/Base/BaseComporator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.o
+.PHONY : Sources/Base/BaseComporator.cpp.o
+
+Sources/Base/BaseComporator.i: Sources/Base/BaseComporator.cpp.i
+
+.PHONY : Sources/Base/BaseComporator.i
+
+# target to preprocess a source file
+Sources/Base/BaseComporator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.i
+.PHONY : Sources/Base/BaseComporator.cpp.i
+
+Sources/Base/BaseComporator.s: Sources/Base/BaseComporator.cpp.s
+
+.PHONY : Sources/Base/BaseComporator.s
+
+# target to generate assembly for a file
+Sources/Base/BaseComporator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.s
+.PHONY : Sources/Base/BaseComporator.cpp.s
+
 Sources/Base/BaseContainer.o: Sources/Base/BaseContainer.cpp.o
 
 .PHONY : Sources/Base/BaseContainer.o
@@ -176,6 +203,33 @@ Sources/Base/BaseDataStructure.s: Sources/Base/BaseDataStructure.cpp.s
 Sources/Base/BaseDataStructure.cpp.s:
 	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s
 .PHONY : Sources/Base/BaseDataStructure.cpp.s
+
+Sources/Base/BaseMetrificator.o: Sources/Base/BaseMetrificator.cpp.o
+
+.PHONY : Sources/Base/BaseMetrificator.o
+
+# target to build an object file
+Sources/Base/BaseMetrificator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.o
+.PHONY : Sources/Base/BaseMetrificator.cpp.o
+
+Sources/Base/BaseMetrificator.i: Sources/Base/BaseMetrificator.cpp.i
+
+.PHONY : Sources/Base/BaseMetrificator.i
+
+# target to preprocess a source file
+Sources/Base/BaseMetrificator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.i
+.PHONY : Sources/Base/BaseMetrificator.cpp.i
+
+Sources/Base/BaseMetrificator.s: Sources/Base/BaseMetrificator.cpp.s
+
+.PHONY : Sources/Base/BaseMetrificator.s
+
+# target to generate assembly for a file
+Sources/Base/BaseMetrificator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.s
+.PHONY : Sources/Base/BaseMetrificator.cpp.s
 
 Sources/Base/BaseSearchEngine.o: Sources/Base/BaseSearchEngine.cpp.o
 
@@ -338,6 +392,33 @@ Sources/KD/SearchEngine.s: Sources/KD/SearchEngine.cpp.s
 Sources/KD/SearchEngine.cpp.s:
 	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s
 .PHONY : Sources/KD/SearchEngine.cpp.s
+
+Sources/StaticGeneration/APIJsonSeializator/Serializator.o: Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o
+
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.o
+
+# target to build an object file
+Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o
+
+Sources/StaticGeneration/APIJsonSeializator/Serializator.i: Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.i
+
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.i
+
+# target to preprocess a source file
+Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.i
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.i
+
+Sources/StaticGeneration/APIJsonSeializator/Serializator.s: Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.s
+
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.s
+
+# target to generate assembly for a file
+Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.s
+.PHONY : Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.s
 
 Sources/StaticGeneration/Page/Page.o: Sources/StaticGeneration/Page/Page.cpp.o
 
@@ -1158,12 +1239,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CPProject.out"
+	@echo "... Sources/Base/BaseComporator.o"
+	@echo "... Sources/Base/BaseComporator.i"
+	@echo "... Sources/Base/BaseComporator.s"
 	@echo "... Sources/Base/BaseContainer.o"
 	@echo "... Sources/Base/BaseContainer.i"
 	@echo "... Sources/Base/BaseContainer.s"
 	@echo "... Sources/Base/BaseDataStructure.o"
 	@echo "... Sources/Base/BaseDataStructure.i"
 	@echo "... Sources/Base/BaseDataStructure.s"
+	@echo "... Sources/Base/BaseMetrificator.o"
+	@echo "... Sources/Base/BaseMetrificator.i"
+	@echo "... Sources/Base/BaseMetrificator.s"
 	@echo "... Sources/Base/BaseSearchEngine.o"
 	@echo "... Sources/Base/BaseSearchEngine.i"
 	@echo "... Sources/Base/BaseSearchEngine.s"
@@ -1182,6 +1269,9 @@ help:
 	@echo "... Sources/KD/SearchEngine.o"
 	@echo "... Sources/KD/SearchEngine.i"
 	@echo "... Sources/KD/SearchEngine.s"
+	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.o"
+	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.i"
+	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.s"
 	@echo "... Sources/StaticGeneration/Page/Page.o"
 	@echo "... Sources/StaticGeneration/Page/Page.i"
 	@echo "... Sources/StaticGeneration/Page/Page.s"

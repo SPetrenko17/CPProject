@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/sergei/Desktop/CPProject/Sources/Base/BaseComporator.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o"
+  "/Users/sergei/Desktop/CPProject/Sources/Base/BaseMetrificator.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/KD/DB.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o"
+  "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Page/Page.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageData/PageData.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageData/PageData.cpp.o"
   "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp" "/Users/sergei/Desktop/CPProject/CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/PageGenerator/PageGenerator.cpp.o"
@@ -92,6 +95,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Sources/WebCrowler/NetService/NetService.cpp"
   "Sources/WebCrowler/response/response.cpp"
   "Sources/Base/BaseContainer.cpp"
+  "Sources/Base/BaseComporator.cpp"
+  "Sources/Base/BaseMetrificator.cpp"
   "Sources/Base/BaseDataStructure.cpp"
   "Sources/Base/BaseSearchEngine.cpp"
   "Sources/KD/Container.cpp"
@@ -100,6 +105,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Sources/KD/KDTree.cpp"
   "Sources/KD/SearchEngine.cpp"
   "Sources/PythonMagic.h"
+  "Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp"
+  "Sources/StaticGeneration/APIJsonSeializator/Serializator.h"
   "/usr/local/include"
   )
 

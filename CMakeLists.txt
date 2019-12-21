@@ -82,6 +82,8 @@ set(ALL_SOURCES
         ${CMAKE_MODULE_PATH}/WebCrowler/response/response.cpp
 
         ${CMAKE_MODULE_PATH}/Base/BaseContainer.cpp
+        ${CMAKE_MODULE_PATH}/Base/BaseComporator.cpp
+        ${CMAKE_MODULE_PATH}/Base/BaseMetrificator.cpp
         ${CMAKE_MODULE_PATH}/Base/BaseDataStructure.cpp
         ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.cpp
 
@@ -92,7 +94,7 @@ set(ALL_SOURCES
         ${CMAKE_MODULE_PATH}/KD/SearchEngine.cpp
 
 
-        Sources/PythonMagic.h)
+        Sources/PythonMagic.h Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp Sources/StaticGeneration/APIJsonSeializator/Serializator.h)
 
 
 set(ALL_VIEWS_HEADERS
@@ -139,6 +141,9 @@ set(ALL_VIEWS_HEADERS
         ${CMAKE_MODULE_PATH}/Base/BaseDB.h
         ${CMAKE_MODULE_PATH}/Base/BaseDBManager.h
         ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.h
+
+
+        ${CMAKE_MODULE_PATH}/Base/BaseMetrificator.h
 
         ${CMAKE_MODULE_PATH}/KD/Contaier.h
         ${CMAKE_MODULE_PATH}/KD/DB.h

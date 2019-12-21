@@ -16,11 +16,12 @@ private:
     std::vector<UserData*> userData;
     PageGenerator *pageGenerator;
     Page* startPage;
+
 public:
     std::vector<Page*> userPages;
-    PageManager(std::vector<UserData*> userdata) {
+    PageManager(std::vector<UserData*> userdata, int port) {
         userData = std::move(userdata);
-        pageGenerator = new PageGenerator();
+        pageGenerator = new PageGenerator(port);
     }
 
     ~PageManager() {

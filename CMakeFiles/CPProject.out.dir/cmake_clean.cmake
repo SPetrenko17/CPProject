@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPProject.out.dir/Sources/WebCrowler/NetService/NetService.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/WebCrowler/response/response.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o"
+  "CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.o"
+  "CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o"
@@ -37,6 +39,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o"
   "CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o"
+  "CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o"
   "CPProject.out.pdb"
   "CPProject.out"
 )

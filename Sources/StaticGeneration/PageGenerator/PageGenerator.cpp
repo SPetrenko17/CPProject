@@ -45,7 +45,7 @@ PageGenerator::generateTablePage(std::vector<UserData *> userData, Organize o) {
 Page *PageGenerator::generateStartPage(std::vector<UserData *> userData) {
     const std::string title1 = "Наш файндфейс!";
     const std::string title2 = "Лучшие разрабы";
-    const std::string link = "http://localhost:8084/request/";
+    const std::string link = "http://localhost:"+ std::to_string(PORT) + "/request/";
     page = new Page();
     View *v = new View("Main", Type::DIV);
     View *nav = createNavbar();
@@ -61,7 +61,7 @@ Page *PageGenerator::generateStartPage(std::vector<UserData *> userData) {
 Page *PageGenerator::generateLinkPage(std::string url) {
     const std::string title1 = "Наш файндфейс!";
     const std::string title2 = "Лучшие разрабы";
-    const std::string link = "http://localhost:8084/request/";
+    const std::string link = "http://localhost:" + std::to_string(PORT) + "/request/";
     page = new Page();
     View *v = new View("Main", Type::DIV);
     View *nav = createNavbar();

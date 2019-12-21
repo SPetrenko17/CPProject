@@ -89,6 +89,8 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseComporator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseMetrificator.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp"/>
@@ -97,6 +99,8 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.h"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -163,6 +167,8 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/NetService/NetService.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/WebCrowler/response/response.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseComporator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseMetrificator.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/Container.cpp"/>
@@ -171,6 +177,8 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.h"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -186,6 +194,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseComporator.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseComporator.h">
+			<Option target="CPProject.out"/>
+		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseContainer.cpp">
 			<Option target="CPProject.out"/>
 		</Unit>
@@ -196,6 +210,12 @@
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseDataStructure.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseMetrificator.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseMetrificator.h">
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/Base/BaseSearchEngine.cpp">
@@ -235,6 +255,12 @@
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/APIJsonSeializator/Serializator.h">
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp">

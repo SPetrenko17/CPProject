@@ -18,18 +18,25 @@
 #include "WebCrowler/API/VkAPI.h"
 
 #include "KD/DB.h"
+
 #include <mongocxx/client.hpp>
 #include <mongocxx/uri.hpp>
 #include <mongocxx/instance.hpp>
 
 
+
+
 using namespace std;
+
+const int port = 8081;
 
 mongocxx::instance inst{};
 mongocxx::client conn{mongocxx::uri{}};
 mongocxx::v_noabi::collection collection =  conn["testdb"]["testcollection"];
 
 DB db(collection);
+
+
 
 std::vector<std::vector<double>> getFacesVector(std::string link) {
     char buffer[128];
@@ -89,7 +96,7 @@ HttpResponse api_method(HttpRequest request) {
                          19)
     };
     HttpResponse response;
-    PageGenerator* pageGenerator = new PageGenerator();
+    PageGenerator* pageGenerator = new PageGenerator(port);
     pageGenerator->generateStartPage(userData);
     response.setResponseBody(pageGenerator->page->toString());
     response.setOKStatus();
@@ -105,7 +112,7 @@ HttpResponse api_method_user_page(HttpRequest request) {
 
 
     HttpResponse response;
-    PageGenerator* pageGenerator = new PageGenerator();
+    PageGenerator* pageGenerator = new PageGenerator(port);
     pageGenerator->generateUserPage(*userData);
     response.setResponseBody(pageGenerator->page->toString());
     response.setOKStatus();
@@ -124,7 +131,7 @@ HttpResponse api_method_similar_users(HttpRequest request) {
             };
 
     HttpResponse response;
-    PageGenerator* pageGenerator = new PageGenerator();
+    PageGenerator* pageGenerator = new PageGenerator(port);
     pageGenerator->generateSimilarUsersPage(userData,Organize::RECT_HORIZONTAL);
     response.setResponseBody(pageGenerator->page->toString());
     response.setOKStatus();
@@ -170,11 +177,12 @@ HttpResponse request_method(HttpRequest request) {
         return api_method(request);
     }
     HttpResponse response;
+    BaseComporator cmp = BaseComporator();
+    BaseMetrificator mth = BaseMetrificator();
 
-    std::string res = db.search_engine->get_best_match(getFacesVector(url)[0])[0];
-    //std::cout << url;
+    std::string res = ((SearchEngine*)db.search_engine)->get_best_match(getFacesVector(url)[0],&cmp, &mth)[0];
 
-    PageGenerator* pageGenerator = new PageGenerator();
+    PageGenerator* pageGenerator = new PageGenerator(port);
     pageGenerator->generateLinkPage(res);
     response.setResponseBody(pageGenerator->page->toString());
     response.setOKStatus();
@@ -185,12 +193,12 @@ HttpResponse request_method(HttpRequest request) {
 
 
 int main(){
+    db.set_max_containers_count(3);
 
     std::shared_ptr<VkAPI> vk = std::make_shared<VkAPI>("asd");
     vk->login();
 
-    std::shared_ptr<VkIdListGeneratorStrategy> vkId = std::make_shared<VkIdListGeneratorStrategy>(6,
-                                                                                                  "/Users/dmitrijgulacenkov/CrowlerDump/vkId.txt"
+    std::shared_ptr<VkIdListGeneratorStrategy> vkId = std::make_shared<VkIdListGeneratorStrategy>(6,"/Users/dmitrijgulacenkov/CrowlerDump/vkId.txt"
     );
 
 
@@ -198,7 +206,7 @@ int main(){
 
     cr.startCrowl();
 
-    Server server(8084);
+    Server server(port);
 
 
     server.set_not_found_view(not_found_view);
