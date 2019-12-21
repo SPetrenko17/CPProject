@@ -9416,6 +9416,7 @@ CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/K
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/KD/DBManager.h
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/KD/KDTree.h
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/KD/SearchEngine.h
+CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/PythonMagic.h
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/WebCrowler/AbstractClasses/AbstractAPI.h
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/WebCrowler/AbstractClasses/Abstract_id_list_generator_strategy.h
 CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o: Sources/WebCrowler/url/url.h
@@ -11387,6 +11388,7 @@ CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/KD/DB.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/KD/DBManager.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/KD/KDTree.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/KD/SearchEngine.h
+CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/PythonMagic.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/StaticGeneration/PageManager/PageManager.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/WebCrowler/API/VkAPI.h
 CMakeFiles/CPProject.out.dir/Sources/main.cpp.o: Sources/WebCrowler/Crowler/Crowler.h

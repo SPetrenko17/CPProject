@@ -41,6 +41,7 @@ include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Server)
 
 set(ALL_SOURCES
 
+
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/SecondaryView/SecondaryView.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/UserData/UserData.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Container/ContainerView.cpp
@@ -91,10 +92,14 @@ set(ALL_SOURCES
         ${CMAKE_MODULE_PATH}/KD/SearchEngine.cpp
 
 
-        )
+        Sources/PythonMagic.h)
 
 
 set(ALL_VIEWS_HEADERS
+
+        ${CMAKE_CURRENT_SOURCE_DIR}/PythonMagic.h
+
+
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/UserData/
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Container/
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Cell/

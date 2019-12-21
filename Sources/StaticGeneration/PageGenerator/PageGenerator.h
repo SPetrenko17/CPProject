@@ -30,6 +30,8 @@ public:
 
     Page *generateSimilarUsersPage(std::vector<UserData *> userData, Organize o);
 
+    Page *generateLinkPage(std::string url);
+
 
 };
 

@@ -95,8 +95,6 @@ View* createDecorate(){
     View *decorate = new View("Dec0", Type::DIV, BClass::DECORATION_DCDL);
     decorate->append(*new View("Dec1", Type::DIV, BClass::DECORATION_DCL));
     decorate->append(*new View("Dec2", Type::DIV, BClass::DECORATION_DCI));
-    decorate->appendInSubview("Dec2", *new View("Dec3", Type::I,
-                                                BClass::DECORATION_FFS));
     decorate->append(*new View("Dec3", Type::DIV, BClass::DECORATION_DCL));
 
     return decorate;
@@ -108,12 +106,11 @@ View* createHead(std::string name){
     head->append(*new View("FlexColumn", Type::DIV, BClass::FLEX_COLUMN));
     head->appendInSubview("FlexColumn", *new ImageView("Avatar", Type::IMG,
                                                        BClass::MASTHEAD_AVATAR,
-                                                       "https://avatanplus.com/files/resources/original/5676944494b52151bf332c01.png"));
+                                                       "https://www.pinclipart.com/picdir/big/133-1331433_free-user-avatar-icons-happy-flat-design-png.png"));
     head->appendInSubview("FlexColumn", *new TextView("HeadingText", Type::H1,
                                                       BClass::MASTHEAD_HEADING,
                                                       name));
 
-    head->appendInSubview("FlexColumn", *createDecorate());
     return head;
 }
 
@@ -213,7 +210,6 @@ View* createDevSection(std::vector<UserData *> userData, std::string title){
 
     devSection->append(*new TextView("DevsText", Type::H2,BClass::SECTION_HEADING, title));
 
-    devSection->append( *createDecorate());
 
     devSection->appendInSubview("DevelopersContainer", *createUserTable(userData));
 
@@ -229,12 +225,7 @@ View* createUserCard(UserData *userData){
 
     devSection->append(*new View("FC",Type::DIV,BClass::CONTAINER));
 
-
-
     devSection->appendInSubview("FC",*new View("DevelopersContainer", Type::DIV,BClass::CONTAINER));
-
-
-    devSection->appendInSubview("FC", *createDecorate());
 
     devSection->appendInSubview("DevelopersContainer", *new View("CenterUser",Type::DIV,BClass::FLEX_COLUMN));
     devSection->appendInSubview("CenterUser",*new PersonView(*userData, 0));
@@ -248,29 +239,29 @@ View* createFileForm(std::string link){
     View* sectionFile = new View("SectionFile", Type::SECTION, BClass::SECTION_FILE,"about");
 
     sectionFile->append( *new View("ContainerFile", Type::DIV,BClass::CONTAINER));
-    const std::string fileText = "Выберите файл";
-    sectionFile->append( *new TextView("UploadFile", Type::H2,BClass::SECTION_FILE_HEADING, fileText));
-    sectionFile->append( *createDecorate());
 
-    sectionFile->append(*new FormView("fileForm", link,
-                                      "post", "multipart/form-data"));
+    const std::string fileText = "Выберите файл";
+    sectionFile->appendInSubview("ContainerFile", *new TextView("UploadFile", Type::H2,BClass::SECTION_FILE_HEADING, fileText));
+
+
+    sectionFile->appendInSubview( "ContainerFile", *new View("ContainerCenter", Type::DIV,BClass::FLEX_COLUMN));
+
+    sectionFile->appendInSubview("ContainerCenter", *new FormView("fileForm", link,
+                                                               "post", "multipart/form-data"));
 
     sectionFile->appendInSubview("fileForm", *new SecondaryView("FileInput", Type::INPUT,
                                                                 std::vector<Attribute>{
                                                                         Attribute("type",
-                                                                                  "file"),
+                                                                                  "text"),
                                                                         Attribute("id",
-                                                                                  "image_uploads"),
+                                                                                  "file_uploads"),
                                                                         Attribute("name",
-                                                                                  "image_uploads"),
-                                                                        Attribute(
-                                                                                "accept",
-                                                                                ".jpg, .jpeg, .png")
+                                                                                  "file_uploads")
                                                                 }));
     sectionFile->appendInSubview("fileForm",
                                  *new SecondaryView("FileButtonInput", Type::BUTTON,
                                                     std::vector<Attribute>{
-                                                            Attribute("TEXT", "Submit"),
+                                                            Attribute("TEXT", "Загрузить"),
                                                     }));
     return sectionFile;
 }

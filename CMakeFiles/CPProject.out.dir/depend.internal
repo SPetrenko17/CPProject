@@ -9417,6 +9417,7 @@ CMakeFiles/CPProject.out.dir/Sources/WebCrowler/Crowler/Crowler.cpp.o
  Sources/KD/DBManager.h
  Sources/KD/KDTree.h
  Sources/KD/SearchEngine.h
+ Sources/PythonMagic.h
  Sources/WebCrowler/AbstractClasses/AbstractAPI.h
  Sources/WebCrowler/AbstractClasses/Abstract_id_list_generator_strategy.h
  Sources/WebCrowler/url/url.h
@@ -11388,6 +11389,7 @@ CMakeFiles/CPProject.out.dir/Sources/main.cpp.o
  /Users/sergei/Desktop/CPProject/Sources/KD/DBManager.h
  /Users/sergei/Desktop/CPProject/Sources/KD/KDTree.h
  /Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.h
+ /Users/sergei/Desktop/CPProject/Sources/PythonMagic.h
  /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/PageManager/PageManager.h
  /Users/sergei/Desktop/CPProject/Sources/WebCrowler/API/VkAPI.h
  /Users/sergei/Desktop/CPProject/Sources/WebCrowler/Crowler/Crowler.h

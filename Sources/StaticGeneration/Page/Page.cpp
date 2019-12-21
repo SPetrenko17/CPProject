@@ -16,8 +16,8 @@ void Page::makeTemplate() {
     view->appendInSubview("html", *new View("head", Type::HEAD));
 
     view->appendInSubview("head",*new SecondaryView("metaUTF",Type::META,std::vector<Attribute>{Attribute("charset","UTF-8")}));
-    view->appendInSubview("head",*new SecondaryView("metaVP",Type::META,std::vector<Attribute>{
-            Attribute("name","viewport"),
+    view->appendInSubview("head",*new SecondaryView("metaVP",Type::META, std::vector<Attribute>{
+            Attribute("name","viewport")
     }));
     view->appendInSubview("head",*new SecondaryView("metaVP",Type::META,std::vector<Attribute>{
             Attribute("content","width=device-width, initial-scale=1, shrink-to-fit=no"),

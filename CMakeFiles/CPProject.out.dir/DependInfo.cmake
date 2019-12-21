@@ -99,6 +99,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Sources/KD/DBManager.cpp"
   "Sources/KD/KDTree.cpp"
   "Sources/KD/SearchEngine.cpp"
+  "Sources/PythonMagic.h"
   "/usr/local/include"
   )
 

@@ -16,11 +16,13 @@ name = "PersonView";
                               imageHeight,
                               imageWidth);
 
-username = new SecondaryView("slug",Type::A,std::vector<Attribute>{
-    Attribute("href","/userpage/"+std::to_string(id)),
-    Attribute("class","my-0 font-weight-normal"),
-    Attribute("TEXT",userData.slug )
-});
+//username = new SecondaryView("slug",Type::A,std::vector<Attribute>{
+//    Attribute("href","/userpage/"+std::to_string(id)),
+//    Attribute("class","my-0 font-weight-normal"),
+//    Attribute("TEXT",userData.slug )
+//});
+    username = new TextView("slug",Type::H4,BClass::TEXT_NORMAL,userData.slug);
+
 
 infoTable = new TableView("table",
                           rowsCount,

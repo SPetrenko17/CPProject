@@ -8,11 +8,11 @@
 #include <sstream>
 
 void HttpResponseBase::setHeader(std::string const& key, std::string value) {
-        if(headers.count(key)) {
-            throw HeaderExistedException(
-                    "Header with key '" + key + "' already existed");
-        }
-        headers[key] = std::move(value);
+    if(headers.count(key)) {
+        throw HeaderExistedException(
+                "Header with key '" + key + "' already existed");
+    }
+    headers[key] = std::move(value);
 }
 
 std::string HttpResponseBase::serializeHeaders() {
@@ -91,3 +91,4 @@ std::string HttpResponse::getSerializedResponse() {
     }
     return serializeHeaders() + "\r\n\r\n" + response_body;
 }
+

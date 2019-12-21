@@ -5,6 +5,7 @@
 #include "PageGenerator.h"
 #include "Samples/SampleViews.h"
 
+
 Page *
 PageGenerator::generateTablePage(std::vector<UserData *> userData, Organize o) {
     page = new Page();
@@ -44,19 +45,35 @@ PageGenerator::generateTablePage(std::vector<UserData *> userData, Organize o) {
 Page *PageGenerator::generateStartPage(std::vector<UserData *> userData) {
     const std::string title1 = "Наш файндфейс!";
     const std::string title2 = "Лучшие разрабы";
-    const std::string link = "http://localhost:8080/#about";
-
+    const std::string link = "http://localhost:8084/request/";
     page = new Page();
     View *v = new View("Main", Type::DIV);
     View *nav = createNavbar();
     v->append(*nav);
-
     v->append(*createHead(title1));
     v->append(*createDevSection(userData,title2));
     v->append(*createFileForm(link));
     v->append(*createContactSection());
     page->appendInBody(*v);
+    return page;
+}
 
+Page *PageGenerator::generateLinkPage(std::string url) {
+    const std::string title1 = "Наш файндфейс!";
+    const std::string title2 = "Лучшие разрабы";
+    const std::string link = "http://localhost:8084/request/";
+    page = new Page();
+    View *v = new View("Main", Type::DIV);
+    View *nav = createNavbar();
+    v->append(*nav);
+    v->append(*createHead(title1));
+//    v->append(*new SecondaryView("URL",Type::LINK,std::vector<Attribute>{
+//      Attribute("TEXT","НАШЛИ ССЫЛКУ")
+//    }));
+    v->append(*new TextView("URL",Type::H4,BClass::TEXT_NORMAL,url));
+    v->append(*createFileForm(link));
+    v->append(*createContactSection());
+    page->appendInBody(*v);
     return page;
 }
 

@@ -96,6 +96,7 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -169,6 +170,7 @@
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/DBManager.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/KDTree.cpp"/>
 					<Add directory="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.cpp"/>
+					<Add directory="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -230,6 +232,9 @@
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/KD/SearchEngine.h">
+			<Option target="CPProject.out"/>
+		</Unit>
+		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/PythonMagic.h">
 			<Option target="CPProject.out"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Page/Page.cpp">
