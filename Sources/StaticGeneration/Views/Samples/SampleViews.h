@@ -51,7 +51,7 @@ View* createNavbar(){
                                                                     Attribute("href",
                                                                               "#page-top"),
                                                                     Attribute("TEXT",
-                                                                              "Наш файндвейс"),
+                                                                              "ФайдФейс"),
                                                             }));
     navBar->appendInSubview("Container", *new View("navbarResponsive", Type::DIV,
                                                    BClass::NAVBAR_COLLPAPSE,
@@ -71,21 +71,11 @@ View* createNavbar(){
                                                                          BClass::NAVBAR_LINK)),
                                                        Attribute("href", "#about"),
                                                        Attribute("TEXT",
-                                                                 "Найти человечка"),
+                                                                 "Поиск"),
                                                }));
 
     navBar->appendInSubview("navbarML",
                             *new View("navbarItem2", Type::LI, BClass::NAVBAR_ITEM));
-    navBar->appendInSubview("navbarItem2",
-                            *new SecondaryView("navbarLinkAbout", Type::A,
-                                               std::vector<Attribute>{
-                                                       Attribute("class",
-                                                                 enumToString(
-                                                                         BClass::NAVBAR_LINK)),
-                                                       Attribute("href",
-                                                                 "#portfolio"),
-                                                       Attribute("TEXT", "О нас"),
-                                               }));
 
     return navBar;
 }
@@ -240,7 +230,7 @@ View* createFileForm(std::string link){
 
     sectionFile->append( *new View("ContainerFile", Type::DIV,BClass::CONTAINER));
 
-    const std::string fileText = "Выберите файл";
+    const std::string fileText = "Добавьте ссылку на изображение";
     sectionFile->appendInSubview("ContainerFile", *new TextView("UploadFile", Type::H2,BClass::SECTION_FILE_HEADING, fileText));
 
 
@@ -261,7 +251,7 @@ View* createFileForm(std::string link){
     sectionFile->appendInSubview("fileForm",
                                  *new SecondaryView("FileButtonInput", Type::BUTTON,
                                                     std::vector<Attribute>{
-                                                            Attribute("TEXT", "Загрузить"),
+                                                            Attribute("TEXT", "Начать поиск"),
                                                     }));
     return sectionFile;
 }
@@ -277,12 +267,35 @@ View* createContactSection(){
                                    BClass::FOOTER_TEXT));
     contactInfo->appendInSubview("FooterText", *new TextView("ContactText0", Type::H4,
                                                              BClass::MB4_UPCASE,
-                                                             "Мы тута"));
+                                                             "Найдите нас тут"));
     contactInfo->appendInSubview("FooterText",
                                  *new TextView("ContactFace", Type::P, BClass::MB0_LEAD,
                                                "МГТУ им. Н.Э. Баумана  ГЗ ауд.395"));
     return contactInfo;
 }
+
+
+View* createFoundedUserSection(std::string img ,std::string link){
+    View* foundedSection = new View("SectionFoundedUser", Type::SECTION, BClass::PAGE_SECTION);
+
+    foundedSection->append(*new View("BigContainer", Type::DIV,BClass::CONTAINER));
+
+    foundedSection->appendInSubview("BigContainer",*new View("FUContainer", Type::DIV,BClass::FLEX_COLUMN));
+
+    foundedSection->appendInSubview("FUContainer",*new TextView("txtUser",Type::H4,BClass::TEXT_NORMAL,"Мы что-то нашли"));
+    foundedSection->appendInSubview("FUContainer", *new ImageView("ImgUser",Type::IMG,BClass::MB4, img,480,240));
+
+    foundedSection->appendInSubview("FUContainer",*new SecondaryView("linkUser", Type::A,
+                                                                     std::vector<Attribute>{
+                                                                             Attribute("href", link),
+                                                                             Attribute("TEXT", "Пользователь")}));
+
+    return foundedSection;
+}
+
+
+
+
 
 
 #endif //CPPROJECT_SAMPLEVIEWS_H

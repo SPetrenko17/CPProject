@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests
+# Install script for directory: /Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/googletest/cmake_install.cmake")
+  include("/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/googletest/cmake_install.cmake")
 endif()
 

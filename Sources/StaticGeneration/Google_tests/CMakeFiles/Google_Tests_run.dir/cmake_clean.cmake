@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Google_Tests_run.dir/view_tests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/SecondaryView_tests.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/TestSampleViews.cpp.o"
+  "CMakeFiles/Google_Tests_run.dir/PersonViewTest.cpp.o"
   "Google_Tests_run.pdb"
   "Google_Tests_run"
 )

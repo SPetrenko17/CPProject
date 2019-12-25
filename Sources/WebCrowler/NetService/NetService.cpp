@@ -27,7 +27,7 @@ response NetService::request(url mUrl) {
         if (res != CURLE_OK) {
             std::cerr << "no Internet";
             const int hour = 60 * 60;
-            sleep(hour);
+            sleep(10);
             request(mUrl);
         }
 

@@ -1,11 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sergei/Desktop/CPProject
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/sergei/Documents/CPProject — копия 4"
 -- Boost  found.
--- Found PythonInterp: /usr/bin/python (found version "2.7.10") 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Looking for pthread_create
--- Looking for pthread_create - found
--- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/sergei/Desktop/CPProject
+-- Build files have been written to: /Users/sergei/Documents/CPProject — копия 4

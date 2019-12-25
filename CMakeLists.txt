@@ -28,6 +28,7 @@ include_directories("/usr/local/lib")
 include_directories(${CMAKE_MODULE_PATH})
 
 include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Views)
+include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/DataBase)
 include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/PageData)
 include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/Page)
 include_directories(${CMAKE_MODULE_PATH}/StaticGeneration/PageGenerator)
@@ -51,7 +52,6 @@ set(ALL_SOURCES
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/TableView/TableView.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/TextView/TextView.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/View/View.cpp
-        ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Samples/SampleViews.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/PersonView/PersonView.cpp
         ${CMAKE_MODULE_PATH}/StaticGeneration/Views/Form/FormView.cpp
 
@@ -81,17 +81,17 @@ set(ALL_SOURCES
 
         ${CMAKE_MODULE_PATH}/WebCrowler/response/response.cpp
 
-        ${CMAKE_MODULE_PATH}/Base/BaseContainer.cpp
-        ${CMAKE_MODULE_PATH}/Base/BaseComporator.cpp
-        ${CMAKE_MODULE_PATH}/Base/BaseMetrificator.cpp
-        ${CMAKE_MODULE_PATH}/Base/BaseDataStructure.cpp
-        ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseContainer.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseComporator.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseMetrificator.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseDataStructure.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseSearchEngine.cpp
 
-        ${CMAKE_MODULE_PATH}/KD/Container.cpp
-        ${CMAKE_MODULE_PATH}/KD/DB.cpp
-        ${CMAKE_MODULE_PATH}/KD/DBManager.cpp
-        ${CMAKE_MODULE_PATH}/KD/KDTree.cpp
-        ${CMAKE_MODULE_PATH}/KD/SearchEngine.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/KD/Container.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/KD/DB.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/KD/DBManager.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/KD/KDTree.cpp
+        ${CMAKE_MODULE_PATH}/DataBase/KD/SearchEngine.cpp
 
 
         Sources/PythonMagic.h Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp Sources/StaticGeneration/APIJsonSeializator/Serializator.h)
@@ -136,20 +136,20 @@ set(ALL_VIEWS_HEADERS
         ${CMAKE_MODULE_PATH}/WebCrowler/url/
 
 
-        ${CMAKE_MODULE_PATH}/Base/BaseContainer.h
-        ${CMAKE_MODULE_PATH}/Base/BaseDataStructure.h
-        ${CMAKE_MODULE_PATH}/Base/BaseDB.h
-        ${CMAKE_MODULE_PATH}/Base/BaseDBManager.h
-        ${CMAKE_MODULE_PATH}/Base/BaseSearchEngine.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseContainer.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseDataStructure.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseDB.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseDBManager.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseSearchEngine.h
 
 
-        ${CMAKE_MODULE_PATH}/Base/BaseMetrificator.h
+        ${CMAKE_MODULE_PATH}/DataBase/Base/BaseMetrificator.h
 
-        ${CMAKE_MODULE_PATH}/KD/Contaier.h
-        ${CMAKE_MODULE_PATH}/KD/DB.h
-        ${CMAKE_MODULE_PATH}/KD/DBManager.h
-        ${CMAKE_MODULE_PATH}/KD/KDTree.h
-        ${CMAKE_MODULE_PATH}/KD/SearchEngine.h
+        ${CMAKE_MODULE_PATH}/DataBase/KD/Contaier.h
+        ${CMAKE_MODULE_PATH}/DataBase/KD/DB.h
+        ${CMAKE_MODULE_PATH}/DataBase/KD/DBManager.h
+        ${CMAKE_MODULE_PATH}/DataBase/KD/KDTree.h
+        ${CMAKE_MODULE_PATH}/DataBase/KD/SearchEngine.h
 
         )
 
@@ -177,5 +177,6 @@ target_link_libraries(CPProject.out ${LIBMONGOCXX_LIBRARIES})
 target_link_libraries(CPProject.out ${LIBBSONCXX_LIBRARIES})
 
 add_subdirectory(Sources/StaticGeneration/Google_tests)
+
 
 

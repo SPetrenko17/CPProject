@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/view_tests.cpp" "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.o"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/PersonViewTest.cpp" "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/PersonViewTest.cpp.o"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/SecondaryView_tests.cpp" "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/SecondaryView_tests.cpp.o"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/TestSampleViews.cpp" "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/TestSampleViews.cpp.o"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/view_tests.cpp" "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -17,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/lib"
   "Sources"
   "Sources/StaticGeneration/Views"
+  "Sources/StaticGeneration/DataBase"
   "Sources/StaticGeneration/PageData"
   "Sources/StaticGeneration/Page"
   "Sources/StaticGeneration/PageGenerator"
@@ -34,7 +38,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Sources/StaticGeneration/Views/TableView/TableView.cpp"
   "Sources/StaticGeneration/Views/TextView/TextView.cpp"
   "Sources/StaticGeneration/Views/View/View.cpp"
-  "Sources/StaticGeneration/Views/Samples/SampleViews.cpp"
   "Sources/StaticGeneration/Views/PersonView/PersonView.cpp"
   "Sources/StaticGeneration/Views/Form/FormView.cpp"
   "Sources/StaticGeneration/Page/Page.cpp"
@@ -54,28 +57,47 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Sources/WebCrowler/Id_list_generator_strategy/Vk_id_list_generator_strategy.cpp"
   "Sources/WebCrowler/NetService/NetService.cpp"
   "Sources/WebCrowler/response/response.cpp"
-  "Sources/Base/BaseContainer.cpp"
-  "Sources/Base/BaseComporator.cpp"
-  "Sources/Base/BaseMetrificator.cpp"
-  "Sources/Base/BaseDataStructure.cpp"
-  "Sources/Base/BaseSearchEngine.cpp"
-  "Sources/KD/Container.cpp"
-  "Sources/KD/DB.cpp"
-  "Sources/KD/DBManager.cpp"
-  "Sources/KD/KDTree.cpp"
-  "Sources/KD/SearchEngine.cpp"
+  "Sources/DataBase/Base/BaseContainer.cpp"
+  "Sources/DataBase/Base/BaseComporator.cpp"
+  "Sources/DataBase/Base/BaseMetrificator.cpp"
+  "Sources/DataBase/Base/BaseDataStructure.cpp"
+  "Sources/DataBase/Base/BaseSearchEngine.cpp"
+  "Sources/DataBase/KD/Container.cpp"
+  "Sources/DataBase/KD/DB.cpp"
+  "Sources/DataBase/KD/DBManager.cpp"
+  "Sources/DataBase/KD/KDTree.cpp"
+  "Sources/DataBase/KD/SearchEngine.cpp"
   "Sources/PythonMagic.h"
   "Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp"
   "Sources/StaticGeneration/APIJsonSeializator/Serializator.h"
   "/usr/local/include"
+  "Sources/Views"
+  "Sources/PageData"
+  "Sources/Page"
+  "Sources/PageGenerator"
+  "Sources/PageManager"
+  "Sources/Views/SecondaryView/SecondaryView.cpp"
+  "Sources/Views/UserData/UserData.cpp"
+  "Sources/Views/Container/ContainerView.cpp"
+  "Sources/Views/Cell/CellView.cpp"
+  "Sources/Views/Row/RowView.cpp"
+  "Sources/Views/ImageView/ImageView.cpp"
+  "Sources/Views/TableView/TableView.cpp"
+  "Sources/Views/TextView/TextView.cpp"
+  "Sources/Views/View/View.cpp"
+  "Sources/Views/PersonView/PersonView.cpp"
+  "Sources/Page/Page.cpp"
+  "Sources/PageGenerator/PageGenerator.cpp"
+  "Sources/PageManager/PageManager.cpp"
+  "Sources/PageData/PageData.cpp"
   "Sources/StaticGeneration/Google_tests/googletest/googletest/include"
   "Sources/StaticGeneration/Google_tests/googletest/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

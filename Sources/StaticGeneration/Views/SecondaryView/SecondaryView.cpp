@@ -21,7 +21,6 @@ std::string SecondaryView::toStringOpen(int depth) {
             res += ">" + attributes[i].getValue();
         }
     }
-
     return res;
 }
 

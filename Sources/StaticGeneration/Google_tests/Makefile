@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sergei/Desktop/CPProject
+CMAKE_SOURCE_DIR = "/Users/sergei/Documents/CPProject — копия 4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sergei/Desktop/CPProject
+CMAKE_BINARY_DIR = "/Users/sergei/Documents/CPProject — копия 4"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/sergei/Desktop/CPProject && $(CMAKE_COMMAND) -E cmake_progress_start /Users/sergei/Desktop/CPProject/CMakeFiles /Users/sergei/Desktop/CPProject/Sources/StaticGeneration/Google_tests/CMakeFiles/progress.marks
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergei/Desktop/CPProject/CMakeFiles 0
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/sergei/Documents/CPProject — копия 4/CMakeFiles" "/Users/sergei/Documents/CPProject — копия 4/Sources/StaticGeneration/Google_tests/CMakeFiles/progress.marks"
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sergei/Documents/CPProject — копия 4/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/clean
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/preinstall
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/preinstall
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/sergei/Desktop/CPProject && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/rule:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/rule
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f CMakeFiles/Makefile2 Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/rule
 .PHONY : Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # Convenience name for target.
@@ -168,8 +168,89 @@ Google_Tests_run: Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_
 
 # fast build rule for target.
 Google_Tests_run/fast:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
+
+PersonViewTest.o: PersonViewTest.cpp.o
+
+.PHONY : PersonViewTest.o
+
+# target to build an object file
+PersonViewTest.cpp.o:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/PersonViewTest.cpp.o
+.PHONY : PersonViewTest.cpp.o
+
+PersonViewTest.i: PersonViewTest.cpp.i
+
+.PHONY : PersonViewTest.i
+
+# target to preprocess a source file
+PersonViewTest.cpp.i:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/PersonViewTest.cpp.i
+.PHONY : PersonViewTest.cpp.i
+
+PersonViewTest.s: PersonViewTest.cpp.s
+
+.PHONY : PersonViewTest.s
+
+# target to generate assembly for a file
+PersonViewTest.cpp.s:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/PersonViewTest.cpp.s
+.PHONY : PersonViewTest.cpp.s
+
+SecondaryView_tests.o: SecondaryView_tests.cpp.o
+
+.PHONY : SecondaryView_tests.o
+
+# target to build an object file
+SecondaryView_tests.cpp.o:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/SecondaryView_tests.cpp.o
+.PHONY : SecondaryView_tests.cpp.o
+
+SecondaryView_tests.i: SecondaryView_tests.cpp.i
+
+.PHONY : SecondaryView_tests.i
+
+# target to preprocess a source file
+SecondaryView_tests.cpp.i:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/SecondaryView_tests.cpp.i
+.PHONY : SecondaryView_tests.cpp.i
+
+SecondaryView_tests.s: SecondaryView_tests.cpp.s
+
+.PHONY : SecondaryView_tests.s
+
+# target to generate assembly for a file
+SecondaryView_tests.cpp.s:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/SecondaryView_tests.cpp.s
+.PHONY : SecondaryView_tests.cpp.s
+
+TestSampleViews.o: TestSampleViews.cpp.o
+
+.PHONY : TestSampleViews.o
+
+# target to build an object file
+TestSampleViews.cpp.o:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/TestSampleViews.cpp.o
+.PHONY : TestSampleViews.cpp.o
+
+TestSampleViews.i: TestSampleViews.cpp.i
+
+.PHONY : TestSampleViews.i
+
+# target to preprocess a source file
+TestSampleViews.cpp.i:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/TestSampleViews.cpp.i
+.PHONY : TestSampleViews.cpp.i
+
+TestSampleViews.s: TestSampleViews.cpp.s
+
+.PHONY : TestSampleViews.s
+
+# target to generate assembly for a file
+TestSampleViews.cpp.s:
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/TestSampleViews.cpp.s
+.PHONY : TestSampleViews.cpp.s
 
 view_tests.o: view_tests.cpp.o
 
@@ -177,7 +258,7 @@ view_tests.o: view_tests.cpp.o
 
 # target to build an object file
 view_tests.cpp.o:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.o
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.o
 .PHONY : view_tests.cpp.o
 
 view_tests.i: view_tests.cpp.i
@@ -186,7 +267,7 @@ view_tests.i: view_tests.cpp.i
 
 # target to preprocess a source file
 view_tests.cpp.i:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.i
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.i
 .PHONY : view_tests.cpp.i
 
 view_tests.s: view_tests.cpp.s
@@ -195,7 +276,7 @@ view_tests.s: view_tests.cpp.s
 
 # target to generate assembly for a file
 view_tests.cpp.s:
-	cd /Users/sergei/Desktop/CPProject && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.s
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(MAKE) -f Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Sources/StaticGeneration/Google_tests/CMakeFiles/Google_Tests_run.dir/view_tests.cpp.s
 .PHONY : view_tests.cpp.s
 
 # Help Target
@@ -211,6 +292,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Google_Tests_run"
+	@echo "... PersonViewTest.o"
+	@echo "... PersonViewTest.i"
+	@echo "... PersonViewTest.s"
+	@echo "... SecondaryView_tests.o"
+	@echo "... SecondaryView_tests.i"
+	@echo "... SecondaryView_tests.s"
+	@echo "... TestSampleViews.o"
+	@echo "... TestSampleViews.i"
+	@echo "... TestSampleViews.s"
 	@echo "... view_tests.o"
 	@echo "... view_tests.i"
 	@echo "... view_tests.s"
@@ -225,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/sergei/Desktop/CPProject && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/sergei/Documents/CPProject — копия 4" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sergei/Desktop/CPProject
+CMAKE_SOURCE_DIR = "/Users/sergei/Documents/CPProject — копия 4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sergei/Desktop/CPProject
+CMAKE_BINARY_DIR = "/Users/sergei/Documents/CPProject — копия 4"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergei/Desktop/CPProject/CMakeFiles /Users/sergei/Desktop/CPProject/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sergei/Documents/CPProject — копия 4/CMakeFiles" "/Users/sergei/Documents/CPProject — копия 4/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergei/Desktop/CPProject/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sergei/Documents/CPProject — копия 4/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -234,275 +234,275 @@ gtest/fast:
 	$(MAKE) -f Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest.dir/build.make Sources/StaticGeneration/Google_tests/googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-Sources/Base/BaseComporator.o: Sources/Base/BaseComporator.cpp.o
+Sources/DataBase/Base/BaseComporator.o: Sources/DataBase/Base/BaseComporator.cpp.o
 
-.PHONY : Sources/Base/BaseComporator.o
-
-# target to build an object file
-Sources/Base/BaseComporator.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.o
-.PHONY : Sources/Base/BaseComporator.cpp.o
-
-Sources/Base/BaseComporator.i: Sources/Base/BaseComporator.cpp.i
-
-.PHONY : Sources/Base/BaseComporator.i
-
-# target to preprocess a source file
-Sources/Base/BaseComporator.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.i
-.PHONY : Sources/Base/BaseComporator.cpp.i
-
-Sources/Base/BaseComporator.s: Sources/Base/BaseComporator.cpp.s
-
-.PHONY : Sources/Base/BaseComporator.s
-
-# target to generate assembly for a file
-Sources/Base/BaseComporator.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseComporator.cpp.s
-.PHONY : Sources/Base/BaseComporator.cpp.s
-
-Sources/Base/BaseContainer.o: Sources/Base/BaseContainer.cpp.o
-
-.PHONY : Sources/Base/BaseContainer.o
+.PHONY : Sources/DataBase/Base/BaseComporator.o
 
 # target to build an object file
-Sources/Base/BaseContainer.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.o
-.PHONY : Sources/Base/BaseContainer.cpp.o
+Sources/DataBase/Base/BaseComporator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseComporator.cpp.o
+.PHONY : Sources/DataBase/Base/BaseComporator.cpp.o
 
-Sources/Base/BaseContainer.i: Sources/Base/BaseContainer.cpp.i
+Sources/DataBase/Base/BaseComporator.i: Sources/DataBase/Base/BaseComporator.cpp.i
 
-.PHONY : Sources/Base/BaseContainer.i
+.PHONY : Sources/DataBase/Base/BaseComporator.i
 
 # target to preprocess a source file
-Sources/Base/BaseContainer.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.i
-.PHONY : Sources/Base/BaseContainer.cpp.i
+Sources/DataBase/Base/BaseComporator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseComporator.cpp.i
+.PHONY : Sources/DataBase/Base/BaseComporator.cpp.i
 
-Sources/Base/BaseContainer.s: Sources/Base/BaseContainer.cpp.s
+Sources/DataBase/Base/BaseComporator.s: Sources/DataBase/Base/BaseComporator.cpp.s
 
-.PHONY : Sources/Base/BaseContainer.s
+.PHONY : Sources/DataBase/Base/BaseComporator.s
 
 # target to generate assembly for a file
-Sources/Base/BaseContainer.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseContainer.cpp.s
-.PHONY : Sources/Base/BaseContainer.cpp.s
+Sources/DataBase/Base/BaseComporator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseComporator.cpp.s
+.PHONY : Sources/DataBase/Base/BaseComporator.cpp.s
 
-Sources/Base/BaseDataStructure.o: Sources/Base/BaseDataStructure.cpp.o
+Sources/DataBase/Base/BaseContainer.o: Sources/DataBase/Base/BaseContainer.cpp.o
 
-.PHONY : Sources/Base/BaseDataStructure.o
+.PHONY : Sources/DataBase/Base/BaseContainer.o
 
 # target to build an object file
-Sources/Base/BaseDataStructure.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.o
-.PHONY : Sources/Base/BaseDataStructure.cpp.o
+Sources/DataBase/Base/BaseContainer.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseContainer.cpp.o
+.PHONY : Sources/DataBase/Base/BaseContainer.cpp.o
 
-Sources/Base/BaseDataStructure.i: Sources/Base/BaseDataStructure.cpp.i
+Sources/DataBase/Base/BaseContainer.i: Sources/DataBase/Base/BaseContainer.cpp.i
 
-.PHONY : Sources/Base/BaseDataStructure.i
+.PHONY : Sources/DataBase/Base/BaseContainer.i
 
 # target to preprocess a source file
-Sources/Base/BaseDataStructure.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.i
-.PHONY : Sources/Base/BaseDataStructure.cpp.i
+Sources/DataBase/Base/BaseContainer.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseContainer.cpp.i
+.PHONY : Sources/DataBase/Base/BaseContainer.cpp.i
 
-Sources/Base/BaseDataStructure.s: Sources/Base/BaseDataStructure.cpp.s
+Sources/DataBase/Base/BaseContainer.s: Sources/DataBase/Base/BaseContainer.cpp.s
 
-.PHONY : Sources/Base/BaseDataStructure.s
+.PHONY : Sources/DataBase/Base/BaseContainer.s
 
 # target to generate assembly for a file
-Sources/Base/BaseDataStructure.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseDataStructure.cpp.s
-.PHONY : Sources/Base/BaseDataStructure.cpp.s
+Sources/DataBase/Base/BaseContainer.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseContainer.cpp.s
+.PHONY : Sources/DataBase/Base/BaseContainer.cpp.s
 
-Sources/Base/BaseMetrificator.o: Sources/Base/BaseMetrificator.cpp.o
+Sources/DataBase/Base/BaseDataStructure.o: Sources/DataBase/Base/BaseDataStructure.cpp.o
 
-.PHONY : Sources/Base/BaseMetrificator.o
+.PHONY : Sources/DataBase/Base/BaseDataStructure.o
 
 # target to build an object file
-Sources/Base/BaseMetrificator.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.o
-.PHONY : Sources/Base/BaseMetrificator.cpp.o
+Sources/DataBase/Base/BaseDataStructure.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseDataStructure.cpp.o
+.PHONY : Sources/DataBase/Base/BaseDataStructure.cpp.o
 
-Sources/Base/BaseMetrificator.i: Sources/Base/BaseMetrificator.cpp.i
+Sources/DataBase/Base/BaseDataStructure.i: Sources/DataBase/Base/BaseDataStructure.cpp.i
 
-.PHONY : Sources/Base/BaseMetrificator.i
+.PHONY : Sources/DataBase/Base/BaseDataStructure.i
 
 # target to preprocess a source file
-Sources/Base/BaseMetrificator.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.i
-.PHONY : Sources/Base/BaseMetrificator.cpp.i
+Sources/DataBase/Base/BaseDataStructure.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseDataStructure.cpp.i
+.PHONY : Sources/DataBase/Base/BaseDataStructure.cpp.i
 
-Sources/Base/BaseMetrificator.s: Sources/Base/BaseMetrificator.cpp.s
+Sources/DataBase/Base/BaseDataStructure.s: Sources/DataBase/Base/BaseDataStructure.cpp.s
 
-.PHONY : Sources/Base/BaseMetrificator.s
+.PHONY : Sources/DataBase/Base/BaseDataStructure.s
 
 # target to generate assembly for a file
-Sources/Base/BaseMetrificator.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseMetrificator.cpp.s
-.PHONY : Sources/Base/BaseMetrificator.cpp.s
+Sources/DataBase/Base/BaseDataStructure.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseDataStructure.cpp.s
+.PHONY : Sources/DataBase/Base/BaseDataStructure.cpp.s
 
-Sources/Base/BaseSearchEngine.o: Sources/Base/BaseSearchEngine.cpp.o
+Sources/DataBase/Base/BaseMetrificator.o: Sources/DataBase/Base/BaseMetrificator.cpp.o
 
-.PHONY : Sources/Base/BaseSearchEngine.o
+.PHONY : Sources/DataBase/Base/BaseMetrificator.o
 
 # target to build an object file
-Sources/Base/BaseSearchEngine.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.o
-.PHONY : Sources/Base/BaseSearchEngine.cpp.o
+Sources/DataBase/Base/BaseMetrificator.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseMetrificator.cpp.o
+.PHONY : Sources/DataBase/Base/BaseMetrificator.cpp.o
 
-Sources/Base/BaseSearchEngine.i: Sources/Base/BaseSearchEngine.cpp.i
+Sources/DataBase/Base/BaseMetrificator.i: Sources/DataBase/Base/BaseMetrificator.cpp.i
 
-.PHONY : Sources/Base/BaseSearchEngine.i
+.PHONY : Sources/DataBase/Base/BaseMetrificator.i
 
 # target to preprocess a source file
-Sources/Base/BaseSearchEngine.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.i
-.PHONY : Sources/Base/BaseSearchEngine.cpp.i
+Sources/DataBase/Base/BaseMetrificator.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseMetrificator.cpp.i
+.PHONY : Sources/DataBase/Base/BaseMetrificator.cpp.i
 
-Sources/Base/BaseSearchEngine.s: Sources/Base/BaseSearchEngine.cpp.s
+Sources/DataBase/Base/BaseMetrificator.s: Sources/DataBase/Base/BaseMetrificator.cpp.s
 
-.PHONY : Sources/Base/BaseSearchEngine.s
+.PHONY : Sources/DataBase/Base/BaseMetrificator.s
 
 # target to generate assembly for a file
-Sources/Base/BaseSearchEngine.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/Base/BaseSearchEngine.cpp.s
-.PHONY : Sources/Base/BaseSearchEngine.cpp.s
+Sources/DataBase/Base/BaseMetrificator.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseMetrificator.cpp.s
+.PHONY : Sources/DataBase/Base/BaseMetrificator.cpp.s
 
-Sources/KD/Container.o: Sources/KD/Container.cpp.o
+Sources/DataBase/Base/BaseSearchEngine.o: Sources/DataBase/Base/BaseSearchEngine.cpp.o
 
-.PHONY : Sources/KD/Container.o
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.o
 
 # target to build an object file
-Sources/KD/Container.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.o
-.PHONY : Sources/KD/Container.cpp.o
+Sources/DataBase/Base/BaseSearchEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseSearchEngine.cpp.o
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.cpp.o
 
-Sources/KD/Container.i: Sources/KD/Container.cpp.i
+Sources/DataBase/Base/BaseSearchEngine.i: Sources/DataBase/Base/BaseSearchEngine.cpp.i
 
-.PHONY : Sources/KD/Container.i
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.i
 
 # target to preprocess a source file
-Sources/KD/Container.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.i
-.PHONY : Sources/KD/Container.cpp.i
+Sources/DataBase/Base/BaseSearchEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseSearchEngine.cpp.i
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.cpp.i
 
-Sources/KD/Container.s: Sources/KD/Container.cpp.s
+Sources/DataBase/Base/BaseSearchEngine.s: Sources/DataBase/Base/BaseSearchEngine.cpp.s
 
-.PHONY : Sources/KD/Container.s
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.s
 
 # target to generate assembly for a file
-Sources/KD/Container.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/Container.cpp.s
-.PHONY : Sources/KD/Container.cpp.s
+Sources/DataBase/Base/BaseSearchEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/Base/BaseSearchEngine.cpp.s
+.PHONY : Sources/DataBase/Base/BaseSearchEngine.cpp.s
 
-Sources/KD/DB.o: Sources/KD/DB.cpp.o
+Sources/DataBase/KD/Container.o: Sources/DataBase/KD/Container.cpp.o
 
-.PHONY : Sources/KD/DB.o
+.PHONY : Sources/DataBase/KD/Container.o
 
 # target to build an object file
-Sources/KD/DB.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.o
-.PHONY : Sources/KD/DB.cpp.o
+Sources/DataBase/KD/Container.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/Container.cpp.o
+.PHONY : Sources/DataBase/KD/Container.cpp.o
 
-Sources/KD/DB.i: Sources/KD/DB.cpp.i
+Sources/DataBase/KD/Container.i: Sources/DataBase/KD/Container.cpp.i
 
-.PHONY : Sources/KD/DB.i
+.PHONY : Sources/DataBase/KD/Container.i
 
 # target to preprocess a source file
-Sources/KD/DB.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.i
-.PHONY : Sources/KD/DB.cpp.i
+Sources/DataBase/KD/Container.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/Container.cpp.i
+.PHONY : Sources/DataBase/KD/Container.cpp.i
 
-Sources/KD/DB.s: Sources/KD/DB.cpp.s
+Sources/DataBase/KD/Container.s: Sources/DataBase/KD/Container.cpp.s
 
-.PHONY : Sources/KD/DB.s
+.PHONY : Sources/DataBase/KD/Container.s
 
 # target to generate assembly for a file
-Sources/KD/DB.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DB.cpp.s
-.PHONY : Sources/KD/DB.cpp.s
+Sources/DataBase/KD/Container.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/Container.cpp.s
+.PHONY : Sources/DataBase/KD/Container.cpp.s
 
-Sources/KD/DBManager.o: Sources/KD/DBManager.cpp.o
+Sources/DataBase/KD/DB.o: Sources/DataBase/KD/DB.cpp.o
 
-.PHONY : Sources/KD/DBManager.o
+.PHONY : Sources/DataBase/KD/DB.o
 
 # target to build an object file
-Sources/KD/DBManager.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.o
-.PHONY : Sources/KD/DBManager.cpp.o
+Sources/DataBase/KD/DB.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DB.cpp.o
+.PHONY : Sources/DataBase/KD/DB.cpp.o
 
-Sources/KD/DBManager.i: Sources/KD/DBManager.cpp.i
+Sources/DataBase/KD/DB.i: Sources/DataBase/KD/DB.cpp.i
 
-.PHONY : Sources/KD/DBManager.i
+.PHONY : Sources/DataBase/KD/DB.i
 
 # target to preprocess a source file
-Sources/KD/DBManager.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.i
-.PHONY : Sources/KD/DBManager.cpp.i
+Sources/DataBase/KD/DB.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DB.cpp.i
+.PHONY : Sources/DataBase/KD/DB.cpp.i
 
-Sources/KD/DBManager.s: Sources/KD/DBManager.cpp.s
+Sources/DataBase/KD/DB.s: Sources/DataBase/KD/DB.cpp.s
 
-.PHONY : Sources/KD/DBManager.s
+.PHONY : Sources/DataBase/KD/DB.s
 
 # target to generate assembly for a file
-Sources/KD/DBManager.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/DBManager.cpp.s
-.PHONY : Sources/KD/DBManager.cpp.s
+Sources/DataBase/KD/DB.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DB.cpp.s
+.PHONY : Sources/DataBase/KD/DB.cpp.s
 
-Sources/KD/KDTree.o: Sources/KD/KDTree.cpp.o
+Sources/DataBase/KD/DBManager.o: Sources/DataBase/KD/DBManager.cpp.o
 
-.PHONY : Sources/KD/KDTree.o
+.PHONY : Sources/DataBase/KD/DBManager.o
 
 # target to build an object file
-Sources/KD/KDTree.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.o
-.PHONY : Sources/KD/KDTree.cpp.o
+Sources/DataBase/KD/DBManager.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DBManager.cpp.o
+.PHONY : Sources/DataBase/KD/DBManager.cpp.o
 
-Sources/KD/KDTree.i: Sources/KD/KDTree.cpp.i
+Sources/DataBase/KD/DBManager.i: Sources/DataBase/KD/DBManager.cpp.i
 
-.PHONY : Sources/KD/KDTree.i
+.PHONY : Sources/DataBase/KD/DBManager.i
 
 # target to preprocess a source file
-Sources/KD/KDTree.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.i
-.PHONY : Sources/KD/KDTree.cpp.i
+Sources/DataBase/KD/DBManager.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DBManager.cpp.i
+.PHONY : Sources/DataBase/KD/DBManager.cpp.i
 
-Sources/KD/KDTree.s: Sources/KD/KDTree.cpp.s
+Sources/DataBase/KD/DBManager.s: Sources/DataBase/KD/DBManager.cpp.s
 
-.PHONY : Sources/KD/KDTree.s
+.PHONY : Sources/DataBase/KD/DBManager.s
 
 # target to generate assembly for a file
-Sources/KD/KDTree.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/KDTree.cpp.s
-.PHONY : Sources/KD/KDTree.cpp.s
+Sources/DataBase/KD/DBManager.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/DBManager.cpp.s
+.PHONY : Sources/DataBase/KD/DBManager.cpp.s
 
-Sources/KD/SearchEngine.o: Sources/KD/SearchEngine.cpp.o
+Sources/DataBase/KD/KDTree.o: Sources/DataBase/KD/KDTree.cpp.o
 
-.PHONY : Sources/KD/SearchEngine.o
+.PHONY : Sources/DataBase/KD/KDTree.o
 
 # target to build an object file
-Sources/KD/SearchEngine.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.o
-.PHONY : Sources/KD/SearchEngine.cpp.o
+Sources/DataBase/KD/KDTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/KDTree.cpp.o
+.PHONY : Sources/DataBase/KD/KDTree.cpp.o
 
-Sources/KD/SearchEngine.i: Sources/KD/SearchEngine.cpp.i
+Sources/DataBase/KD/KDTree.i: Sources/DataBase/KD/KDTree.cpp.i
 
-.PHONY : Sources/KD/SearchEngine.i
+.PHONY : Sources/DataBase/KD/KDTree.i
 
 # target to preprocess a source file
-Sources/KD/SearchEngine.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.i
-.PHONY : Sources/KD/SearchEngine.cpp.i
+Sources/DataBase/KD/KDTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/KDTree.cpp.i
+.PHONY : Sources/DataBase/KD/KDTree.cpp.i
 
-Sources/KD/SearchEngine.s: Sources/KD/SearchEngine.cpp.s
+Sources/DataBase/KD/KDTree.s: Sources/DataBase/KD/KDTree.cpp.s
 
-.PHONY : Sources/KD/SearchEngine.s
+.PHONY : Sources/DataBase/KD/KDTree.s
 
 # target to generate assembly for a file
-Sources/KD/SearchEngine.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/KD/SearchEngine.cpp.s
-.PHONY : Sources/KD/SearchEngine.cpp.s
+Sources/DataBase/KD/KDTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/KDTree.cpp.s
+.PHONY : Sources/DataBase/KD/KDTree.cpp.s
+
+Sources/DataBase/KD/SearchEngine.o: Sources/DataBase/KD/SearchEngine.cpp.o
+
+.PHONY : Sources/DataBase/KD/SearchEngine.o
+
+# target to build an object file
+Sources/DataBase/KD/SearchEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/SearchEngine.cpp.o
+.PHONY : Sources/DataBase/KD/SearchEngine.cpp.o
+
+Sources/DataBase/KD/SearchEngine.i: Sources/DataBase/KD/SearchEngine.cpp.i
+
+.PHONY : Sources/DataBase/KD/SearchEngine.i
+
+# target to preprocess a source file
+Sources/DataBase/KD/SearchEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/SearchEngine.cpp.i
+.PHONY : Sources/DataBase/KD/SearchEngine.cpp.i
+
+Sources/DataBase/KD/SearchEngine.s: Sources/DataBase/KD/SearchEngine.cpp.s
+
+.PHONY : Sources/DataBase/KD/SearchEngine.s
+
+# target to generate assembly for a file
+Sources/DataBase/KD/SearchEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/DataBase/KD/SearchEngine.cpp.s
+.PHONY : Sources/DataBase/KD/SearchEngine.cpp.s
 
 Sources/StaticGeneration/APIJsonSeializator/Serializator.o: Sources/StaticGeneration/APIJsonSeializator/Serializator.cpp.o
 
@@ -800,33 +800,6 @@ Sources/StaticGeneration/Views/Row/RowView.s: Sources/StaticGeneration/Views/Row
 Sources/StaticGeneration/Views/Row/RowView.cpp.s:
 	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Row/RowView.cpp.s
 .PHONY : Sources/StaticGeneration/Views/Row/RowView.cpp.s
-
-Sources/StaticGeneration/Views/Samples/SampleViews.o: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
-
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.o
-
-# target to build an object file
-Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.o
-
-Sources/StaticGeneration/Views/Samples/SampleViews.i: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
-
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.i
-
-# target to preprocess a source file
-Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.i
-
-Sources/StaticGeneration/Views/Samples/SampleViews.s: Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
-
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.s
-
-# target to generate assembly for a file
-Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s:
-	$(MAKE) -f CMakeFiles/CPProject.out.dir/build.make CMakeFiles/CPProject.out.dir/Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
-.PHONY : Sources/StaticGeneration/Views/Samples/SampleViews.cpp.s
 
 Sources/StaticGeneration/Views/SecondaryView/SecondaryView.o: Sources/StaticGeneration/Views/SecondaryView/SecondaryView.cpp.o
 
@@ -1359,36 +1332,36 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... Sources/Base/BaseComporator.o"
-	@echo "... Sources/Base/BaseComporator.i"
-	@echo "... Sources/Base/BaseComporator.s"
-	@echo "... Sources/Base/BaseContainer.o"
-	@echo "... Sources/Base/BaseContainer.i"
-	@echo "... Sources/Base/BaseContainer.s"
-	@echo "... Sources/Base/BaseDataStructure.o"
-	@echo "... Sources/Base/BaseDataStructure.i"
-	@echo "... Sources/Base/BaseDataStructure.s"
-	@echo "... Sources/Base/BaseMetrificator.o"
-	@echo "... Sources/Base/BaseMetrificator.i"
-	@echo "... Sources/Base/BaseMetrificator.s"
-	@echo "... Sources/Base/BaseSearchEngine.o"
-	@echo "... Sources/Base/BaseSearchEngine.i"
-	@echo "... Sources/Base/BaseSearchEngine.s"
-	@echo "... Sources/KD/Container.o"
-	@echo "... Sources/KD/Container.i"
-	@echo "... Sources/KD/Container.s"
-	@echo "... Sources/KD/DB.o"
-	@echo "... Sources/KD/DB.i"
-	@echo "... Sources/KD/DB.s"
-	@echo "... Sources/KD/DBManager.o"
-	@echo "... Sources/KD/DBManager.i"
-	@echo "... Sources/KD/DBManager.s"
-	@echo "... Sources/KD/KDTree.o"
-	@echo "... Sources/KD/KDTree.i"
-	@echo "... Sources/KD/KDTree.s"
-	@echo "... Sources/KD/SearchEngine.o"
-	@echo "... Sources/KD/SearchEngine.i"
-	@echo "... Sources/KD/SearchEngine.s"
+	@echo "... Sources/DataBase/Base/BaseComporator.o"
+	@echo "... Sources/DataBase/Base/BaseComporator.i"
+	@echo "... Sources/DataBase/Base/BaseComporator.s"
+	@echo "... Sources/DataBase/Base/BaseContainer.o"
+	@echo "... Sources/DataBase/Base/BaseContainer.i"
+	@echo "... Sources/DataBase/Base/BaseContainer.s"
+	@echo "... Sources/DataBase/Base/BaseDataStructure.o"
+	@echo "... Sources/DataBase/Base/BaseDataStructure.i"
+	@echo "... Sources/DataBase/Base/BaseDataStructure.s"
+	@echo "... Sources/DataBase/Base/BaseMetrificator.o"
+	@echo "... Sources/DataBase/Base/BaseMetrificator.i"
+	@echo "... Sources/DataBase/Base/BaseMetrificator.s"
+	@echo "... Sources/DataBase/Base/BaseSearchEngine.o"
+	@echo "... Sources/DataBase/Base/BaseSearchEngine.i"
+	@echo "... Sources/DataBase/Base/BaseSearchEngine.s"
+	@echo "... Sources/DataBase/KD/Container.o"
+	@echo "... Sources/DataBase/KD/Container.i"
+	@echo "... Sources/DataBase/KD/Container.s"
+	@echo "... Sources/DataBase/KD/DB.o"
+	@echo "... Sources/DataBase/KD/DB.i"
+	@echo "... Sources/DataBase/KD/DB.s"
+	@echo "... Sources/DataBase/KD/DBManager.o"
+	@echo "... Sources/DataBase/KD/DBManager.i"
+	@echo "... Sources/DataBase/KD/DBManager.s"
+	@echo "... Sources/DataBase/KD/KDTree.o"
+	@echo "... Sources/DataBase/KD/KDTree.i"
+	@echo "... Sources/DataBase/KD/KDTree.s"
+	@echo "... Sources/DataBase/KD/SearchEngine.o"
+	@echo "... Sources/DataBase/KD/SearchEngine.i"
+	@echo "... Sources/DataBase/KD/SearchEngine.s"
 	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.o"
 	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.i"
 	@echo "... Sources/StaticGeneration/APIJsonSeializator/Serializator.s"
@@ -1422,9 +1395,6 @@ help:
 	@echo "... Sources/StaticGeneration/Views/Row/RowView.o"
 	@echo "... Sources/StaticGeneration/Views/Row/RowView.i"
 	@echo "... Sources/StaticGeneration/Views/Row/RowView.s"
-	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.o"
-	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.i"
-	@echo "... Sources/StaticGeneration/Views/Samples/SampleViews.s"
 	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.o"
 	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.i"
 	@echo "... Sources/StaticGeneration/Views/SecondaryView/SecondaryView.s"
