@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/DownloadProject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Google_tests/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Google_tests/lib/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sources/StaticGeneration/Google_tests/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mongo-cxx-driver" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mongo-cxx-driver/build/mongo-cxx-driver" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mongo-cxx-driver/build/mongo-cxx-driver/build/src/bsoncxx/third_party/EP_mnmlstc_core-prefix/src/EP_mnmlstc_core" vcs="Git" />

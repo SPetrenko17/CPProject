@@ -198,7 +198,7 @@ int main(){
     std::shared_ptr<VkAPI> vk = std::make_shared<VkAPI>("asd");
     vk->login();
 
-    std::shared_ptr<VkIdListGeneratorStrategy> vkId = std::make_shared<VkIdListGeneratorStrategy>(6,"/Users/dmitrijgulacenkov/CrowlerDump/vkId.txt"
+    std::shared_ptr<VkIdListGeneratorStrategy> vkId = std::make_shared<VkIdListGeneratorStrategy>(100,"/Users/dmitrijgulacenkov/CrowlerDump/vkId.txt"
     );
 
 
